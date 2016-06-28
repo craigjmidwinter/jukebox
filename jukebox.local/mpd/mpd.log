@@ -1,0 +1,43 @@
+Jun 28 03:05 : zeroconf: No global port, disabling zeroconf
+Jun 28 03:05 : errno: Failed to open /home/vagrant/sites/jukebox.local/mpd/state: No such file or directory
+Jun 28 03:05 : client: [0] opened from local
+Jun 28 03:05 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Jun 28 03:05 : client: [0] closed
+Jun 28 03:06 : client: [1] opened from local
+Jun 28 03:06 : client: [1] closed
+Jun 28 03:09 : client: [2] opened from local
+Jun 28 03:09 : client: [2] closed
+Jun 28 03:09 : update: added /01 Bang The Nails.mp3
+Jun 28 03:09 : update: added /02 Anastasia.mp3
+Jun 28 03:09 : update: added /03 Caramel Heart.mp3
+Jun 28 03:09 : update: added /04 Only Lovers.mp3
+Jun 28 03:09 : update: added /05 Old Grey Ford.mp3
+Jun 28 03:09 : update: added /06 Burden Of Proof.mp3
+Jun 28 03:09 : update: added /07 Dirt Angel.mp3
+Jun 28 03:09 : update: added /08 Turnbuckle.mp3
+Jun 28 03:09 : update: added /09 Pull Me In.mp3
+Jun 28 03:09 : update: added /10 Sunday Driver Down.mp3
+Jun 28 03:09 : update: added /11 Paper Doll.mp3
+Jun 28 03:09 : update: added /12 Endless Holiday.mp3
+Jun 28 03:12 : client: [3] opened from local
+Jun 28 03:12 : client: [3] closed
+Jun 28 03:12 : client: [4] opened from local
+Jun 28 03:12 : client: [4] closed
+Jun 28 03:13 : client: [5] opened from local
+Jun 28 03:13 : client: [5] closed
+Jun 28 03:13 : client: [6] opened from local
+Jun 28 03:13 : client: [6] closed
+Jun 28 03:54 : client: [7] opened from local
+Jun 28 03:54 : client: [7] closed
+Jun 28 03:54 : update: added /01 More Brother Rides.mp3
+Jun 28 03:54 : update: added /02 Viva Ultra.mp3
+Jun 28 03:54 : update: added /03 The Brute Choir.mp3
+Jun 28 03:54 : update: added /04 The Mountain Low.mp3
+Jun 28 03:54 : update: added /05 Tonight's Decision (And Herea.mp3
+Jun 28 03:54 : update: added /06 Work Hard _ Play Hard.mp3
+Jun 28 03:54 : update: added /07 New Partner.mp3
+Jun 28 03:54 : update: added /08 Cat's Blues.mp3
+Jun 28 03:54 : update: added /09 We All, Us Three, Will Ride.mp3
+Jun 28 03:54 : update: added /10 Old Jerusalem.mp3
+Jun 28 03:54 : client: [8] opened from local
+Jun 28 03:54 : client: [8] closed
