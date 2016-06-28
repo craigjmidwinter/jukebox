@@ -202,7 +202,7 @@
           : this.hide()
       }, this));
 
-      if (doAnimate) this.$backdrop[0].offsetWidth; // force reflow
+      if (doAnimate) this.$backdrop[0].offsetWidth;; // force reflow
 
       this.$backdrop.addClass('in');
 
@@ -326,7 +326,7 @@
     if ($this.is('a')) e.preventDefault();
 
     $target.one('show.bs.modal', function (showEvent) {
-      if (showEvent.isDefaultPrevented()) return; // only register focus restorer if modal will actually get shown
+      if (showEvent.isDefaultPrevented()) return;; // only register focus restorer if modal will actually get shown
       $target.one('hidden.bs.modal', function () {
         $this.is(':visible') && $this.trigger('focus')
       })

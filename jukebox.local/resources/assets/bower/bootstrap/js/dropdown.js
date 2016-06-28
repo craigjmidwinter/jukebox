@@ -116,8 +116,8 @@
 
     var index = $items.index(e.target);
 
-    if (e.which == 38 && index > 0)                 index--;         // up
-    if (e.which == 40 && index < $items.length - 1) index++;         // down
+    if (e.which == 38 && index > 0)                 index--;;         // up
+    if (e.which == 40 && index < $items.length - 1) index++;;         // down
     if (!~index)                                    index = 0;
 
     $items.eq(index).trigger('focus')
