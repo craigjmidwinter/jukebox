@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use LxMpd;
+use lxmpd;
 
 
 class ArtistController extends Controller
@@ -15,17 +15,12 @@ class ArtistController extends Controller
 	function __construct() {
 		parent::__construct();
 
-
-
-		// Authenticate to MPD
-		//$this->xMPD->authenticate();
-		// Refresh the xMPD properties with status and statistics from MPD
-		//$this->xMPD->refreshInfo();
 	}
 
 	public function getArtistList(){
 
-		//$artists = lmpd::class;
+
+		$artists = lxmpd::
 
 
 
