@@ -41,3 +41,8 @@ Jun 28 03:54 : update: added /09 We All, Us Three, Will Ride.mp3
 Jun 28 03:54 : update: added /10 Old Jerusalem.mp3
 Jun 28 03:54 : client: [8] opened from local
 Jun 28 03:54 : client: [8] closed
+Jun 29 02:50 : client: [0] opened from [::1]:35464
+Jun 29 02:50 : client: [0] closed
+Jun 29 02:50 : client: [1] opened from 127.0.0.1:36154
+Jun 29 02:50 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Jun 29 02:50 : client: [1] closed

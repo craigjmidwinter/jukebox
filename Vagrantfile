@@ -34,4 +34,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     if defined? VagrantPlugins::HostsUpdater
         config.hostsupdater.aliases = settings['sites'].map { |site| site['map'] }
     end
+
+    config.vbguest.auto_update = false
 end

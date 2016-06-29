@@ -158,6 +158,8 @@ return [
 
         TwigBridge\ServiceProvider::class,
         Dcarrith\LxMPD\LxMPDServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
 
 
 
@@ -207,7 +209,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Twig' => TwigBridge\Facade\Twig::class,
-        'lmpd' => Dcarrith\LxMPD\LxMPDFacade::class,
+        'lxmpd' => Dcarrith\LxMPD\LxMPDFacade::class,
 
     ],
 
