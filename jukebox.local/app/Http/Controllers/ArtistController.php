@@ -6,22 +6,22 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-use lxmpd;
+use lxmpd, View;
 
 
 class ArtistController extends Controller
 {
 
 	function __construct() {
-		parent::__construct();
 
 	}
 
 	public function getArtistList(){
 
+		$data['listing_type'] = 'artist';
+		$data['artists'] = lxmpd::runCommand('list','artist');
 
-		$artists = lxmpd::
-
+		return View::make('listing\listing', $data);
 
 
 	}
