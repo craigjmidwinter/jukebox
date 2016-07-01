@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','ArtistController@getArtistList');
 
 Route::get('/artists','ArtistController@getArtistList');
+Route::get('/admin/update','PlayerController@updateLibrary');

@@ -1,5 +1,11 @@
-<ul>
-{% for artist in artists %}
-	<li>{{ artist }}</li>
-{% endfor %}
-</ul>
+{% extends 'layouts/html.twig' %}
+
+{% block mainContent %}
+	<div class="col-xs-12">
+		<div class="list-group">
+			{% for artist in artists %}
+				<button type="button" class="list-group-item">{{ artist }}</button>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

@@ -46,3 +46,84 @@ Jun 29 02:50 : client: [0] closed
 Jun 29 02:50 : client: [1] opened from 127.0.0.1:36154
 Jun 29 02:50 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
 Jun 29 02:50 : client: [1] closed
+Jun 30 03:13 : client: [2] opened from 127.0.0.1:36156
+Jun 30 03:13 : client: [2] closed
+Jun 30 03:13 : client: [3] opened from 127.0.0.1:36158
+Jun 30 03:13 : client: [3] closed
+Jun 30 03:14 : client: [4] opened from 127.0.0.1:36160
+Jun 30 03:14 : client: [4] closed
+Jun 30 03:14 : client: [5] opened from 127.0.0.1:36162
+Jun 30 03:14 : client: [5] closed
+Jun 30 03:14 : client: [6] opened from 127.0.0.1:36164
+Jun 30 03:14 : client: [6] closed
+Jun 30 03:16 : client: [7] opened from 127.0.0.1:36166
+Jun 30 03:16 : client: [7] closed
+Jun 30 21:07 : client: [8] opened from 127.0.0.1:36182
+Jun 30 21:07 : client: [8] closed
+Jun 30 21:09 : client: [9] opened from 127.0.0.1:36184
+Jun 30 21:09 : client: [9] closed
+Jun 30 21:10 : client: [10] opened from 127.0.0.1:36186
+Jun 30 21:10 : client: [10] closed
+Jul 01 00:22 : client: [11] opened from 127.0.0.1:36188
+Jul 01 00:22 : client: [11] closed
+Jul 01 00:52 : client: [12] opened from 127.0.0.1:36190
+Jul 01 00:52 : client: [12] closed
+Jul 01 00:53 : client: [13] opened from 127.0.0.1:36192
+Jul 01 00:53 : client: [13] closed
+Jul 01 00:54 : client: [14] opened from 127.0.0.1:36194
+Jul 01 00:54 : client: [14] closed
+Jul 01 00:55 : client: [15] opened from 127.0.0.1:36196
+Jul 01 00:55 : client: [15] closed
+Jul 01 01:05 : client: [16] opened from 127.0.0.1:36198
+Jul 01 01:05 : client: [16] closed
+Jul 01 01:20 : client: [17] opened from 127.0.0.1:36200
+Jul 01 01:20 : client: [17] closed
+Jul 01 01:25 : client: [18] opened from 127.0.0.1:36202
+Jul 01 01:25 : client: [18] closed
+Jul 01 01:29 : client: [19] opened from 127.0.0.1:36204
+Jul 01 01:29 : client: [19] closed
+Jul 01 01:32 : client: [20] opened from 127.0.0.1:36206
+Jul 01 01:32 : client: [20] closed
+Jul 01 01:32 : client: [21] opened from 127.0.0.1:36208
+Jul 01 01:32 : client: [21] closed
+Jul 01 01:38 : client: [22] opened from 127.0.0.1:36210
+Jul 01 01:38 : client: [22] closed
+Jul 01 01:38 : client: [23] opened from 127.0.0.1:36212
+Jul 01 01:38 : client: [23] closed
+Jul 01 01:39 : client: [24] opened from 127.0.0.1:36214
+Jul 01 01:39 : client: [24] closed
+Jul 01 01:42 : client: [25] opened from 127.0.0.1:36216
+Jul 01 01:42 : client: [25] closed
+Jul 01 01:43 : client: [26] opened from 127.0.0.1:36218
+Jul 01 01:43 : client: [26] closed
+Jul 01 01:44 : client: [27] opened from 127.0.0.1:36220
+Jul 01 01:44 : client: [27] closed
+Jul 01 02:18 : client: [28] opened from [::1]:35536
+Jul 01 02:18 : client: [28] closed
+Jul 01 02:18 : client: [29] opened from [::1]:35538
+Jul 01 02:18 : client: [29] closed
+Jul 01 02:19 : client: [30] opened from [::1]:35540
+Jul 01 02:19 : client: [30] closed
+Jul 01 02:19 : client: [31] opened from [::1]:35542
+Jul 01 02:19 : client: [31] closed
+Jul 01 02:33 : client: [32] opened from 127.0.0.1:36232
+Jul 01 02:33 : errno: Failed to open '': Too many levels of symbolic links
+Jul 01 02:33 : client: [32] closed
+Jul 01 02:33 : client: [33] opened from 127.0.0.1:36234
+Jul 01 02:33 : client: [33] closed
+Jul 01 02:34 : client: [34] opened from 127.0.0.1:36236
+Jul 01 02:34 : errno: Failed to open '': Too many levels of symbolic links
+Jul 01 02:34 : client: [34] closed
+Jul 01 02:35 : client: [35] opened from 127.0.0.1:36238
+Jul 01 02:35 : client: [35] closed
+Jul 01 02:36 : client: [36] opened from [::1]:35552
+Jul 01 02:36 : client: [36] closed
+Jul 01 02:36 : errno: Failed to open '': Too many levels of symbolic links
+Jul 01 02:37 : client: [37] opened from [::1]:35554
+Jul 01 02:37 : errno: Failed to open '': Too many levels of symbolic links
+Jul 01 02:37 : client: [37] closed
+Jul 01 02:38 : client: [38] opened from [::1]:35556
+Jul 01 02:38 : errno: Failed to open '': Too many levels of symbolic links
+Jul 01 02:38 : client: [38] closed
+Jul 01 02:38 : client: [39] opened from 127.0.0.1:36246
+Jul 01 02:38 : client: [39] closed
