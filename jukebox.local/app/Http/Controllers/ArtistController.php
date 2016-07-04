@@ -18,12 +18,11 @@ class ArtistController extends Controller
 
 	public function getArtistList(){
 
-		$data['listing_type'] = 'artist';
+		$data['listingType'] = 'artist';
 		$data['artists'] = lxmpd::runCommand('list','artist');
 		$data['pageSubtitle'] = 'Artists';
 
 		return View::make('listing\listing', $data);
-
 
 	}
 }

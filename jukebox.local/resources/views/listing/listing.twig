@@ -3,9 +3,15 @@
 {% block mainContent %}
 	<div class="col-xs-12">
 		<div class="list-group">
-			{% for artist in artists %}
-				<button type="button" class="list-group-item">{{ artist }}</button>
-			{% endfor %}
+			{% if listingType == 'artist' %}
+				{% for artist in artists %}
+					{% include 'listing/partials/artist-item' with {artist:artist} %}
+				{% endfor %}
+			{% elseif listingType == 'song' %}
+				{% for song in songs %}
+					{% include 'listing/partials/song-item' with {song:song} %}
+				{% endfor %}
+			{% endif %}
 		</div>
 	</div>
 {% endblock %}

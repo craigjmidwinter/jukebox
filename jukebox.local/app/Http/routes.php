@@ -14,4 +14,7 @@
 Route::get('/','ArtistController@getArtistList');
 
 Route::get('/artists','ArtistController@getArtistList');
+
+Route::get('/{artist}/songs','SongController@getSongList');
+
 Route::get('/admin/update','PlayerController@updateLibrary');
