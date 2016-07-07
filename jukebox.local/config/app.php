@@ -157,7 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         TwigBridge\ServiceProvider::class,
-        Dcarrith\LxMPD\LxMPDServiceProvider::class,
+        Wardcraigj\LxMPD\LxMPDServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
 
@@ -209,7 +209,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Twig' => TwigBridge\Facade\Twig::class,
-        'lxmpd' => Dcarrith\LxMPD\LxMPDFacade::class,
+        'lxmpd' => Wardcraigj\LxMPD\LxMPDFacade::class,
 
     ],
 
