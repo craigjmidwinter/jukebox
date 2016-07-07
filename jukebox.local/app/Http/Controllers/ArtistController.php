@@ -22,7 +22,7 @@ class ArtistController extends Controller
 		$data['artists'] = lxmpd::runCommand('list','artist');
 		$data['pageSubtitle'] = 'Artists';
 
-		return View::make('listing\listing', $data);
+		return View::make('listing/listing', $data);
 
 	}
 }
