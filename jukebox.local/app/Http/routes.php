@@ -18,3 +18,7 @@ Route::get('/artists','ArtistController@getArtistList');
 Route::get('/{artist}/songs','SongController@getSongList');
 
 Route::get('/admin/update','PlayerController@updateLibrary');
+
+Route::post('/queue','PlayerController@postQueueSong');
+
+Route::get('/play','PlayerController@play');

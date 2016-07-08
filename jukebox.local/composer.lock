@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1337ad76510ac4ae2634ec83d69260d6",
-    "content-hash": "bac7a63dd08d62d7905451458a07ab0a",
+    "hash": "890dd3b7190c8e83e48983937b03d68b",
+    "content-hash": "80f73dd2c8a3fbd18f4f2495c0f7b7ed",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -2087,16 +2087,16 @@
         },
         {
             "name": "wardcraigj/lxmpd",
-            "version": "dev-master",
+            "version": "dev-jukebox-changes",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wardcraigj/lxmpd.git",
-                "reference": "019e0a1b3d828505e277b55ba22e731ced9231ba"
+                "reference": "1f3d0a50a752e990bb908ec742679cefe771e50f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wardcraigj/lxmpd/zipball/019e0a1b3d828505e277b55ba22e731ced9231ba",
-                "reference": "019e0a1b3d828505e277b55ba22e731ced9231ba",
+                "url": "https://api.github.com/repos/wardcraigj/lxmpd/zipball/1f3d0a50a752e990bb908ec742679cefe771e50f",
+                "reference": "1f3d0a50a752e990bb908ec742679cefe771e50f",
                 "shasum": ""
             },
             "require": {
@@ -2136,9 +2136,9 @@
                 "lxmpd"
             ],
             "support": {
-                "source": "https://github.com/wardcraigj/lxmpd/tree/master"
+                "source": "https://github.com/wardcraigj/lxmpd/tree/jukebox-changes"
             },
-            "time": "2016-07-06 23:52:44"
+            "time": "2016-07-08 01:04:36"
         }
     ],
     "packages-dev": [

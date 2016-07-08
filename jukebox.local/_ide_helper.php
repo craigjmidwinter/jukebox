@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.2.39 on 2016-06-29.
+ * Generated for Laravel 5.2.39 on 2016-07-08.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -3700,17 +3700,6 @@ namespace {
         }
         
         /**
-         * Get the deeply nested relations for a given top-level relation.
-         *
-         * @param string $relation
-         * @return array 
-         * @static 
-         */
-        public static function nestedRelations($relation){
-            return \Illuminate\Database\Eloquent\Builder::nestedRelations($relation);
-        }
-        
-        /**
          * Apply the callback's query changes if the given "value" is true.
          *
          * @param bool $value
@@ -3861,6 +3850,17 @@ namespace {
          */
         public static function withCount($relations){
             return \Illuminate\Database\Eloquent\Builder::withCount($relations);
+        }
+        
+        /**
+         * Add the given scopes to the current builder instance.
+         *
+         * @param array $scopes
+         * @return mixed 
+         * @static 
+         */
+        public static function scopes($scopes){
+            return \Illuminate\Database\Eloquent\Builder::scopes($scopes);
         }
         
         /**
@@ -5538,6 +5538,19 @@ namespace {
         }
         
         /**
+         * Move a directory.
+         *
+         * @param string $from
+         * @param string $to
+         * @param bool $overwrite
+         * @return bool 
+         * @static 
+         */
+        public static function moveDirectory($from, $to, $overwrite = false){
+            return \Illuminate\Filesystem\Filesystem::moveDirectory($from, $to, $overwrite);
+        }
+        
+        /**
          * Copy a directory from one location to another.
          *
          * @param string $directory
@@ -6756,15 +6769,15 @@ namespace {
         }
         
         /**
-         * Set the encrypter instance.
+         * Set the encrypter implementation.
          *
-         * @param \Illuminate\Contracts\Encryption\Encrypter $crypt
+         * @param \Illuminate\Contracts\Encryption\Encrypter $encrypter
          * @return void 
          * @static 
          */
-        public static function setEncrypter($crypt){
+        public static function setEncrypter($encrypter){
             //Method inherited from \Illuminate\Queue\Queue            
-            \Illuminate\Queue\SyncQueue::setEncrypter($crypt);
+            \Illuminate\Queue\SyncQueue::setEncrypter($encrypter);
         }
         
     }
@@ -7742,7 +7755,7 @@ namespace {
         /**
          * Gets the list of trusted proxies.
          *
-         * @return array An array of trusted proxies.
+         * @return array An array of trusted proxies
          * @static 
          */
         public static function getTrustedProxies(){
@@ -7766,7 +7779,7 @@ namespace {
         /**
          * Gets the list of trusted host patterns.
          *
-         * @return array An array of trusted host patterns.
+         * @return array An array of trusted host patterns
          * @static 
          */
         public static function getTrustedHosts(){
@@ -8330,7 +8343,7 @@ namespace {
         /**
          * Sets the request format.
          *
-         * @param string $format The request format.
+         * @param string $format The request format
          * @static 
          */
         public static function setRequestFormat($format){
@@ -8396,7 +8409,7 @@ namespace {
         /**
          * Checks if the request method is of specified type.
          *
-         * @param string $method Uppercase request method (GET, POST etc).
+         * @param string $method Uppercase request method (GET, POST etc)
          * @return bool 
          * @static 
          */
@@ -8420,7 +8433,7 @@ namespace {
          * Returns the request body content.
          *
          * @param bool $asResource If true, a resource will be returned
-         * @return string|resource The request body content or a resource to read the body stream.
+         * @return string|resource The request body content or a resource to read the body stream
          * @throws \LogicException
          * @static 
          */
@@ -9607,7 +9620,7 @@ namespace {
         /**
          * Starts the session storage.
          *
-         * @return bool True if session started.
+         * @return bool True if session started
          * @throws \RuntimeException If session fails to start.
          * @static 
          */
@@ -9618,7 +9631,7 @@ namespace {
         /**
          * Returns the session ID.
          *
-         * @return string The session ID.
+         * @return string The session ID
          * @static 
          */
         public static function getId(){
@@ -9649,7 +9662,7 @@ namespace {
         /**
          * Returns the session name.
          *
-         * @return mixed The session name.
+         * @return mixed The session name
          * @static 
          */
         public static function getName(){
@@ -9676,7 +9689,7 @@ namespace {
          *                      will leave the system settings unchanged, 0 sets the cookie
          *                      to expire with browser session. Time is in seconds, and is
          *                      not a Unix timestamp.
-         * @return bool True if session invalidated, false if error.
+         * @return bool True if session invalidated, false if error
          * @static 
          */
         public static function invalidate($lifetime = null){
@@ -9687,12 +9700,12 @@ namespace {
          * Migrates the current session to a new session id while maintaining all
          * session attributes.
          *
-         * @param bool $destroy Whether to delete the old session or leave it to garbage collection.
+         * @param bool $destroy Whether to delete the old session or leave it to garbage collection
          * @param int $lifetime Sets the cookie lifetime for the session cookie. A null value
          *                       will leave the system settings unchanged, 0 sets the cookie
          *                       to expire with browser session. Time is in seconds, and is
          *                       not a Unix timestamp.
-         * @return bool True if session migrated, false if error.
+         * @return bool True if session migrated, false if error
          * @static 
          */
         public static function migrate($destroy = false, $lifetime = null){
@@ -9748,7 +9761,7 @@ namespace {
          * Returns an attribute.
          *
          * @param string $name The attribute name
-         * @param mixed $default The default value if not found.
+         * @param mixed $default The default value if not found
          * @return mixed 
          * @static 
          */
@@ -9824,6 +9837,30 @@ namespace {
          */
         public static function push($key, $value){
             \Illuminate\Session\Store::push($key, $value);
+        }
+        
+        /**
+         * Increment the value of an item in the session.
+         *
+         * @param string $key
+         * @param int $amount
+         * @return mixed 
+         * @static 
+         */
+        public static function increment($key, $amount = 1){
+            return \Illuminate\Session\Store::increment($key, $amount);
+        }
+        
+        /**
+         * Decrement the value of an item in the session.
+         *
+         * @param string $key
+         * @param int $amount
+         * @return int 
+         * @static 
+         */
+        public static function decrement($key, $amount = 1){
+            return \Illuminate\Session\Store::decrement($key, $amount);
         }
         
         /**
@@ -11487,19 +11524,6 @@ namespace {
         }
         
         /**
-         * Gets the cache filename for a given template.
-         *
-         * @param string $name The template name
-         * @return string|false The cache file name or false when caching is disabled
-         * @deprecated since 1.22 (to be removed in 2.0)
-         * @static 
-         */
-        public static function getCacheFilename($name){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::getCacheFilename($name);
-        }
-        
-        /**
          * Gets the template class associated with the given string.
          * 
          * The generated template class is based on the following parameters:
@@ -11516,18 +11540,6 @@ namespace {
         public static function getTemplateClass($name, $index = null){
             //Method inherited from \Twig_Environment            
             return \TwigBridge\Bridge::getTemplateClass($name, $index);
-        }
-        
-        /**
-         * Gets the template class prefix.
-         *
-         * @return string The template class prefix
-         * @deprecated since 1.22 (to be removed in 2.0)
-         * @static 
-         */
-        public static function getTemplateClassPrefix(){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::getTemplateClassPrefix();
         }
         
         /**
@@ -11597,7 +11609,7 @@ namespace {
         /**
          * Tries to load a template consecutively from an array.
          * 
-         * Similar to loadTemplate() but it also accepts Twig_TemplateInterface instances and an array
+         * Similar to loadTemplate() but it also accepts Twig_Template instances and an array
          * of templates where each is tried to be loaded.
          *
          * @param string|\Twig_Template|array $names A template or an array of templates to try consecutively
@@ -11612,31 +11624,9 @@ namespace {
         }
         
         /**
-         * Clears the internal template cache.
-         *
-         * @deprecated since 1.18.3 (to be removed in 2.0)
-         * @static 
-         */
-        public static function clearTemplateCache(){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::clearTemplateCache();
-        }
-        
-        /**
-         * Clears the template cache files on the filesystem.
-         *
-         * @deprecated since 1.22 (to be removed in 2.0)
-         * @static 
-         */
-        public static function clearCacheFiles(){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::clearCacheFiles();
-        }
-        
-        /**
          * Gets the Lexer instance.
          *
-         * @return \Twig_LexerInterface A Twig_LexerInterface instance
+         * @return \Twig_Lexer A Twig_Lexer instance
          * @static 
          */
         public static function getLexer(){
@@ -11647,7 +11637,7 @@ namespace {
         /**
          * Sets the Lexer instance.
          *
-         * @param \Twig_LexerInterface $lexer A Twig_LexerInterface instance
+         * @param \Twig_Lexer $lexer A Twig_Lexer instance
          * @static 
          */
         public static function setLexer($lexer){
@@ -11672,7 +11662,7 @@ namespace {
         /**
          * Gets the Parser instance.
          *
-         * @return \Twig_ParserInterface A Twig_ParserInterface instance
+         * @return \Twig_Parser A Twig_Parser instance
          * @static 
          */
         public static function getParser(){
@@ -11683,7 +11673,7 @@ namespace {
         /**
          * Sets the Parser instance.
          *
-         * @param \Twig_ParserInterface $parser A Twig_ParserInterface instance
+         * @param \Twig_Parser $parser A Twig_Parser instance
          * @static 
          */
         public static function setParser($parser){
@@ -11707,7 +11697,7 @@ namespace {
         /**
          * Gets the Compiler instance.
          *
-         * @return \Twig_CompilerInterface A Twig_CompilerInterface instance
+         * @return \Twig_Compiler A Twig_Compiler instance
          * @static 
          */
         public static function getCompiler(){
@@ -11718,7 +11708,7 @@ namespace {
         /**
          * Sets the Compiler instance.
          *
-         * @param \Twig_CompilerInterface $compiler A Twig_CompilerInterface instance
+         * @param \Twig_Compiler $compiler A Twig_Compiler instance
          * @static 
          */
         public static function setCompiler($compiler){
@@ -11729,7 +11719,7 @@ namespace {
         /**
          * Compiles a node and returns the PHP code.
          *
-         * @param \Twig_NodeInterface $node A Twig_NodeInterface instance
+         * @param \Twig_Node $node A Twig_Node instance
          * @return string The compiled PHP source code
          * @static 
          */
@@ -11799,7 +11789,6 @@ namespace {
         /**
          * Initializes the runtime environment.
          *
-         * @deprecated since 1.23 (to be removed in 2.0)
          * @static 
          */
         public static function initRuntime(){
@@ -11843,20 +11832,6 @@ namespace {
         }
         
         /**
-         * Removes an extension by name.
-         * 
-         * This method is deprecated and you should not use it.
-         *
-         * @param string $name The extension name
-         * @deprecated since 1.12 (to be removed in 2.0)
-         * @static 
-         */
-        public static function removeExtension($name){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::removeExtension($name);
-        }
-        
-        /**
          * Registers an array of extensions.
          *
          * @param array $extensions An array of extensions
@@ -11892,7 +11867,7 @@ namespace {
         /**
          * Gets the registered Token Parsers.
          *
-         * @return \Twig_TokenParserBrokerInterface A broker containing token parsers
+         * @return \Twig_TokenParserInterface[] An array of Twig_TokenParserInterface
          * @internal 
          * @static 
          */
@@ -11903,8 +11878,6 @@ namespace {
         
         /**
          * Gets registered tags.
-         * 
-         * Be warned that this method cannot return tags defined by Twig_TokenParserBrokerInterface classes.
          *
          * @return \Twig_TokenParserInterface[] An array of Twig_TokenParserInterface instances
          * @internal 
@@ -11941,13 +11914,12 @@ namespace {
         /**
          * Registers a Filter.
          *
-         * @param string|\Twig_SimpleFilter $name The filter name or a Twig_SimpleFilter instance
-         * @param \Twig_FilterInterface|\Twig_SimpleFilter $filter A Twig_FilterInterface instance or a Twig_SimpleFilter instance
+         * @param \Twig_Filter $filter A Twig_Filter instance
          * @static 
          */
-        public static function addFilter($name, $filter = null){
+        public static function addFilter($filter){
             //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::addFilter($name, $filter);
+            return \TwigBridge\Bridge::addFilter($filter);
         }
         
         /**
@@ -11981,7 +11953,7 @@ namespace {
          * 
          * Be warned that this method cannot return filters defined with registerUndefinedFilterCallback.
          *
-         * @return \Twig_FilterInterface[] An array of Twig_FilterInterface instances
+         * @return \Twig_Filter[] An array of Twig_Filter instances
          * @see registerUndefinedFilterCallback
          * @internal 
          * @static 
@@ -11994,19 +11966,18 @@ namespace {
         /**
          * Registers a Test.
          *
-         * @param string|\Twig_SimpleTest $name The test name or a Twig_SimpleTest instance
-         * @param \Twig_TestInterface|\Twig_SimpleTest $test A Twig_TestInterface instance or a Twig_SimpleTest instance
+         * @param \Twig_Test $test A Twig_Test instance
          * @static 
          */
-        public static function addTest($name, $test = null){
+        public static function addTest($test){
             //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::addTest($name, $test);
+            return \TwigBridge\Bridge::addTest($test);
         }
         
         /**
          * Gets the registered Tests.
          *
-         * @return \Twig_TestInterface[] An array of Twig_TestInterface instances
+         * @return \Twig_Test[] An array of Twig_Test instances
          * @internal 
          * @static 
          */
@@ -12031,13 +12002,12 @@ namespace {
         /**
          * Registers a Function.
          *
-         * @param string|\Twig_SimpleFunction $name The function name or a Twig_SimpleFunction instance
-         * @param \Twig_FunctionInterface|\Twig_SimpleFunction $function A Twig_FunctionInterface instance or a Twig_SimpleFunction instance
+         * @param \Twig_Function $function A Twig_Function instance
          * @static 
          */
-        public static function addFunction($name, $function = null){
+        public static function addFunction($function){
             //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::addFunction($name, $function);
+            return \TwigBridge\Bridge::addFunction($function);
         }
         
         /**
@@ -12071,7 +12041,7 @@ namespace {
          * 
          * Be warned that this method cannot return functions defined with registerUndefinedFunctionCallback.
          *
-         * @return \Twig_FunctionInterface[] An array of Twig_FunctionInterface instances
+         * @return \Twig_Function[] An array of Twig_Function instances
          * @see registerUndefinedFunctionCallback
          * @internal 
          * @static 
@@ -12142,17 +12112,6 @@ namespace {
         public static function getBinaryOperators(){
             //Method inherited from \Twig_Environment            
             return \TwigBridge\Bridge::getBinaryOperators();
-        }
-        
-        /**
-         * 
-         *
-         * @deprecated since 1.23 (to be removed in 2.0)
-         * @static 
-         */
-        public static function computeAlternatives($name, $items){
-            //Method inherited from \Twig_Environment            
-            return \TwigBridge\Bridge::computeAlternatives($name, $items);
         }
         
     }
@@ -12239,8 +12198,8 @@ namespace {
         
         /**
          * reportOnMissingTags will find any tracks that are missing essentials tags and throws an exception
-         * 	that contains enough information to track down the missing tags so the user can fill them in
-         * with the id3 editor of their choice
+         *    that contains enough information to track down the missing tags so the user can fill them in
+         *    with the id3 editor of their choice
          *
          * @param string $command is the command that was run which we want to pass through to the exception message
          * @param array $tracks is the array of tracks to loop through
@@ -12340,6 +12299,18 @@ namespace {
          */
         public static function skip($to){
             return \Dcarrith\LxMPD\LxMPD::skip($to);
+        }
+        
+        /**
+         * 
+         *
+         * @param $uri URI of the song to queue
+         * @param bool $duplicatesAllowed
+         * @return int position of track in playlist
+         * @static 
+         */
+        public static function queue($uri, $duplicatesAllowed = true){
+            return \Dcarrith\LxMPD\LxMPD::queue($uri, $duplicatesAllowed);
         }
         
         /**

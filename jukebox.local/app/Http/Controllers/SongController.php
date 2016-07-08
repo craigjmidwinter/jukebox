@@ -33,8 +33,7 @@ class SongController extends Controller
 
 		$data['songs'] = $songs;
 		
-		return View::make('listing\listing', $data);
-
-
+		return View::make('listing/listing', $data);
+		
 	}
 }
