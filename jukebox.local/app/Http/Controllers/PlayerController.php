@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use lxmpd, URL, Redirect;
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 class PlayerController extends Controller
 {
@@ -19,7 +20,23 @@ class PlayerController extends Controller
 	}
 
 	public function getNowPlayingInfo(){
-		$data['artist'] = lxmpd::getCurrentTrack();
+		
+		$data = [];
+		$currentSong = lxmpd::getCurrentTrack();
+		$status = lxmpd::getStatus();
+		
+		if(key_exists('Title', $currentSong)){
+			$data['currentSong'] = $currentSong['Title'];
+			$data['currentArtist'] = $currentSong['Artist'];
+			$data['time'] = $status['time'];
+		} else {
+			$data['currentSong'] = 0;
+			$data['currentArtist'] = 0;
+			$data['time'] = $status['time'];
+		}
+		
+		return new JsonResponse($data);
+		
 	}
 	
 	public function postQueueSong(Request $request){
@@ -27,7 +44,14 @@ class PlayerController extends Controller
 		
 		lxmpd::queue($songUri);
 
-		redirect('/');
+		$status = lxmpd::getStatus();
+
+		if($status['state'] != 'playing'){
+			lxmpd::play();
+			lxmpd::refreshInfo();
+		}
+
+		return redirect('/');
 	}
 	
 	public function play(){
@@ -35,6 +59,6 @@ class PlayerController extends Controller
 
 		lxmpd::refreshInfo();
 
-		redirect('/');
+		return redirect('/');
 	}
 }
