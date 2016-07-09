@@ -169,4 +169,8 @@ class MpdListener extends Command
             }
         }
     }
+    public function _triggerEvent($one = null, $two = null, $three = null){
+        echo $one;
+        return;
+    }
 }
