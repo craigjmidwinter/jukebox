@@ -28,6 +28,7 @@ class SongChangedEventListener
     public function handle(SongChanged $event)
     {
         //
-        \Log::alert('song change event fired');
+        //\Log::alert('song change event fired');
+        echo "song change event fired";
     }
 }
