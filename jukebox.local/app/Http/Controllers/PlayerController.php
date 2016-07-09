@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use lxmpd, URL, Redirect;
+use Psy\Util\Json;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class PlayerController extends Controller
@@ -36,7 +37,6 @@ class PlayerController extends Controller
 		}
 		
 		return new JsonResponse($data);
-		
 	}
 	
 	public function postQueueSong(Request $request){
@@ -60,5 +60,13 @@ class PlayerController extends Controller
 		lxmpd::refreshInfo();
 
 		return redirect('/');
+	}
+
+	public function status(){
+
+		$status = lxmpd::getStatus();
+
+		return new JsonResponse($status);
+
 	}
 }

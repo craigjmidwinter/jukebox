@@ -28,3 +28,4 @@ Route::auth();
 Route::any('/admin', 'AdminController@index');
 
 Route::get('/get/nowPlaying', 'PlayerController@getNowPlayingInfo');
+Route::get('/get/status', 'PlayerController@status');
