@@ -161,7 +161,7 @@ class MpdListener extends Command
                     }
                     break;
                 case 'songid':
-                    Event::fire(new SongChanged(lxmpd::getCurrentTrack()));
+                    Event::fire( new SongChanged() );
                     break;
                 case 'time':
                     $this->_triggerEvent(MPDEVENTLISTENER_ONTIMECHANGE,$this->status['time'],$value);
