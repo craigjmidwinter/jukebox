@@ -127,36 +127,36 @@ class MpdListener extends Command
         foreach ($change_status as $attr => $value) {
             switch ($attr) {
                 case 'volume':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONVOLUMECHANGE,$this->status['volume'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONVOLUMECHANGE,$this->status['volume'],$value);
                     break;
                 case 'repeat':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONREPEATCHANGE,$this->status['repeat'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONREPEATCHANGE,$this->status['repeat'],$value);
                     break;
                 case 'random':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONSHUFFLECHANGE,$this->status['random'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONSHUFFLECHANGE,$this->status['random'],$value);
                     break;
                 case 'single':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONSINGLECHANGE,$this->status['single'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONSINGLECHANGE,$this->status['single'],$value);
                     break;
                 case 'consume':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONCONSUMECHANGE,$this->status['consume'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONCONSUMECHANGE,$this->status['consume'],$value);
                     break;
                 case 'playlist':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONPLAYLISTCHANGE,$this->playlist,$newPlaylist);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONPLAYLISTCHANGE,$this->playlist,$newPlaylist);
                     break;
                 case 'xfade':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONCROSSFADECHANGE,$this->status['xfade'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONCROSSFADECHANGE,$this->status['xfade'],$value);
                     break;
                 case 'state':
                     switch ($value) {
                         case 'pause':
-                            $this->_triggerEvent(MPDEVENTLISTENER_ONPAUSE,$this->status['state']);
+                            echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONPAUSE,$this->status['state']);
                             break;
                         case 'play':
-                            $this->_triggerEvent(MPDEVENTLISTENER_ONPLAY,$this->status['state']);
+                            echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONPLAY,$this->status['state']);
                             break;
                         case 'stop':
-                            $this->_triggerEvent(MPDEVENTLISTENER_ONSTOP,$this->status['state']);
+                            echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONSTOP,$this->status['state']);
                             break;
                     }
                     break;
@@ -164,7 +164,7 @@ class MpdListener extends Command
                     Event::fire( new SongChanged() );
                     break;
                 case 'time':
-                    $this->_triggerEvent(MPDEVENTLISTENER_ONTIMECHANGE,$this->status['time'],$value);
+                    echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONTIMECHANGE,$this->status['time'],$value);
                     break;
             }
         }
