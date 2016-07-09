@@ -28,7 +28,7 @@ class MpdListener extends Command
      *
      * @var string
      */
-    protected $signature = 'mpd:listen';
+    protected $signature = 'mpd:listen {checkTime=1}';
 
     /**
      * The console command description.
@@ -65,7 +65,8 @@ class MpdListener extends Command
      */
     public function handle()
     {
-        $this->mpd = new lxmpd();
+        $this->checkTime = $this->argument('checkTime');
+        $this->startListening();
     }
 
     public function startListening() {
