@@ -71,7 +71,7 @@ class PlayerController extends Controller
 	}
 
 	public function getPlaylists(Request $request){
-		if(!isNull($request->input('playlist'))){
+		if($request->input('playlist') !== null){
 			$list = lxmpd::runCommand("listplaylist", $request->input('playlist') );
 		}else{
 			$list = lxmpd::runCommand("listplaylists");
