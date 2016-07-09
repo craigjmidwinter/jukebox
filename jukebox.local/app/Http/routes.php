@@ -22,3 +22,8 @@ Route::get('/admin/update','PlayerController@updateLibrary');
 Route::post('/queue','PlayerController@postQueueSong');
 
 Route::get('/play','PlayerController@play');
+
+Route::auth();
+
+Route::any('/admin', 'AdminController@index');
+

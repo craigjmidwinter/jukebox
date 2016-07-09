@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use lxmpd;
+use lxmpd, URL, Redirect;
 
 class PlayerController extends Controller
 {
@@ -26,6 +26,8 @@ class PlayerController extends Controller
 		$songUri = $request->input('song');
 		
 		lxmpd::queue($songUri);
+
+		redirect('/');
 	}
 	
 	public function play(){
@@ -33,6 +35,6 @@ class PlayerController extends Controller
 
 		lxmpd::refreshInfo();
 
-		\Redirect::action();
+		redirect('/');
 	}
 }
