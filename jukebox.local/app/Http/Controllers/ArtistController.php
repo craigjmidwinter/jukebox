@@ -21,9 +21,13 @@ class ArtistController extends Controller
 		$data['listingType'] = 'artist';
 		$data['artists'] = lxmpd::runCommand('list','artist');
 		$data['pageSubtitle'] = 'Artists';
+
 		$currentSong = lxmpd::getCurrentTrack();
-		$data['currentSong'] = $currentSong['Title'];
-		$data['currentArtist'] = $currentSong['Artist'];
+		if(key_exists($currentSong,['Title'])){
+			$data['currentSong'] = $currentSong['Title'];
+			$data['currentArtist'] = $currentSong['Artist'];
+		}
+
 		return View::make('listing/listing', $data);
 
 	}

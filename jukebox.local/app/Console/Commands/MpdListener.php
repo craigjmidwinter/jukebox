@@ -170,7 +170,7 @@ class MpdListener extends Command
         }
     }
     public function _triggerEvent($one = null, $two = null, $three = null){
-        echo $one;
+        echo $one . PHP_EOL;
         return;
     }
 }

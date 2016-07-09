@@ -29,6 +29,6 @@ class SongChangedEventListener
     {
         //
         //\Log::alert('song change event fired');
-        echo "song change event fired";
+        echo "song change event fired" . PHP_EOL;
     }
 }

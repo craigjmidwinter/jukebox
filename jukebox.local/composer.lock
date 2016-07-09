@@ -1091,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "1ffdfdbbfb2b4dc133507b5a03989408d298779e"
+                "reference": "17ba8f8fc03074f90771e52b226698e37bc2c115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/1ffdfdbbfb2b4dc133507b5a03989408d298779e",
-                "reference": "1ffdfdbbfb2b4dc133507b5a03989408d298779e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/17ba8f8fc03074f90771e52b226698e37bc2c115",
+                "reference": "17ba8f8fc03074f90771e52b226698e37bc2c115",
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1136,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-07-08 11:52:16"
+            "time": "2016-07-09 18:06:48"
         },
         {
             "name": "symfony/class-loader",
@@ -2091,12 +2091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wardcraigj/lxmpd.git",
-                "reference": "395c29268e39afa74e623528ec79833bfc81c4a4"
+                "reference": "470c05de3c7cfeb2fd696b6e2b12ca80c6c69e00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wardcraigj/lxmpd/zipball/395c29268e39afa74e623528ec79833bfc81c4a4",
-                "reference": "395c29268e39afa74e623528ec79833bfc81c4a4",
+                "url": "https://api.github.com/repos/wardcraigj/lxmpd/zipball/470c05de3c7cfeb2fd696b6e2b12ca80c6c69e00",
+                "reference": "470c05de3c7cfeb2fd696b6e2b12ca80c6c69e00",
                 "shasum": ""
             },
             "require": {
@@ -2138,7 +2138,7 @@
             "support": {
                 "source": "https://github.com/wardcraigj/lxmpd/tree/jukebox-changes"
             },
-            "time": "2016-07-09 16:48:16"
+            "time": "2016-07-09 20:10:13"
         }
     ],
     "packages-dev": [
