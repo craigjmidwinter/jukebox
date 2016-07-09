@@ -161,7 +161,7 @@ class MpdListener extends Command
                     }
                     break;
                 case 'songid':
-                    Event::fire( new SongChanged() );
+                    Event::fire( new SongChanged($newStatus) );
                     break;
                 case 'time':
                     echo $value; // $this->_triggerEvent(MPDEVENTLISTENER_ONTIMECHANGE,$this->status['time'],$value);

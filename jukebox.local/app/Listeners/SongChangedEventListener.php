@@ -30,5 +30,9 @@ class SongChangedEventListener
         //
         //\Log::alert('song change event fired');
         echo "song change event fired" . PHP_EOL;
+
+        if(($event->status['nextsongid'] == 0) && (Config::get('jukeboxMode')) ){
+            //todo: queue song from playlist
+        }
     }
 }

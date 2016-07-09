@@ -9,15 +9,17 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 class SongChanged extends Event
 {
     use SerializesModels;
+    public $status = [];
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($status)
     {
         //
+        $this->status = $status;
     }
 
     /**

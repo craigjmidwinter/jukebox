@@ -69,4 +69,11 @@ class PlayerController extends Controller
 		return new JsonResponse($status);
 
 	}
+
+	public function getPlaylists(){
+		$playlists = lxmpd::runCommand("listplaylists");
+
+		return new JsonResponse($playlists);
+
+	}
 }
