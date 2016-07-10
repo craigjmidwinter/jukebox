@@ -1,30 +1,48 @@
 {% extends 'layouts/html.twig' %}
 
 {% block mainContent %}
-	<h1>Admin</h1>
-	<form>
-		<div class="form-group">
-			<h2>Jukebox</h2>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" {% if jukeboxMode %} checked {% endif %}> Jukebox Mode
-				</label>
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" {% if jukeboxDuplicates %} checked {% endif %}> Allow Duplicates
-				</label>
-			</div>
-			<label>Playlist:
-				<select class="form-control">
-					<option value = '' {%  if not playlistValid %}selected{% endif %}>none</option>
 
-					{%  for playlist in allPlaylists %}
-						<option value = '{{ playlist }}' {%  if playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
+	<h1>Admin</h1>
+	<h3>Jukebox</h3>
+
+	<div class="col-xs-offset-1 col-xs-10">
+
+	<form class="form-horizontal" action="/admin/saveSettings" method="post">
+		<input type="hidden" name="_token" value="{{ csrf_token() }}">
+		<div class="form-group">
+
+			<div class="checkbox">
+
+				<label>
+					Jukebox Mode
+					<input type="checkbox" name="jukeboxMode" {% if jukeboxMode %} checked {% endif %} />
+				</label>
+			</div>
+
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" name="allowDuplicates" {% if jukeboxDuplicates %} checked {% endif %}> Allow Duplicates
+				</label>
+			</div>
+
+
+			<label class="control-label ">Playlist:			</label>
+
+			<select class="form-control" name="jukeboxPlaylist">
+					<option value='' {% if not playlistValid %}selected{% endif %}>none</option>
+
+					{% for playlist in allPlaylists %}
+						<option value='{{ playlist }}' {% if playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
 					{% endfor %}
 				</select>
-			</label>
+
+			<button type="submit" class="btn btn-default">Submit</button>
+
 		</div>
 	</form>
+	</div>
+
+
+
 
 {% endblock %}

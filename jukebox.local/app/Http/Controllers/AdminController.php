@@ -26,4 +26,16 @@ class AdminController extends Controller
 
 		return \View::make('admin/admin', $data);
 	}
+	
+	public function postSaveJukeboxSettings (Request $request) {
+		$playlist = lxmpd::playlistExists($request->input('jukeboxPlaylist'))? $request->input('jukeboxPlaylist') : '';
+
+		config([
+		'jukebox.jukebox_mode' => (($request->input('jukeboxMode') == 'on')? true : false),
+		'jukebox.allow_duplicates' => (($request->input('allowDuplicates') == 'on')? true : false),
+		'jukebox.playlist' => $playlist,
+		]);
+
+		return $this->index();
+	}
 }
