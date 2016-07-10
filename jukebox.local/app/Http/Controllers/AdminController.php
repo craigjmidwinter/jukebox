@@ -21,7 +21,7 @@ class AdminController extends Controller
 		$data['jukeboxDuplicates'] = config('jukebox.allow_duplicates');
 		$data['jukeboxPlaylist'] = config('jukebox.playlist');
 		$data['playlistValid'] = \lxmpd::playlistExists(config('jukebox.playlist'));
-		$data['allPlaylists'] = \lxmpd::listplaylists();
+		$data['allPlaylists'] = \lxmpd::runCommand('listplaylists');
 		return \View::make('admin/admin', $data);
 	}
 }
