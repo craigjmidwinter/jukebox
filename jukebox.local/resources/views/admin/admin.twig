@@ -19,7 +19,7 @@
 				<select class="form-control">
 					<option value = '' {%  if not playlistValid %}selected{% endif %}>none</option>
 
-					{%  for playlist in playlists %}
+					{%  for playlist in allPlaylists %}
 						<option value = '{{ playlist }}' {%  if not playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
 					{% endfor %}
 				</select>
