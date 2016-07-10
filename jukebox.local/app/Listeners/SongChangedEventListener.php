@@ -41,7 +41,10 @@ class SongChangedEventListener
 
                 $queuesong = array_rand ($songs,1);
 
-                lxmpd::queue($queuesong['file']);
+                $songURI = $songs[$queuesong]['file'];
+                
+                lxmpd::queue($songURI);
+
             }
         }
     }
