@@ -6,6 +6,7 @@ use App\Events\SomeEvent;
 use App\Events\SongChanged;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use lxmpd;
 
 class SongChangedEventListener
 {
@@ -32,7 +33,12 @@ class SongChangedEventListener
         echo "song change event fired" . PHP_EOL;
 
         if(($event->status['nextsongid'] == 0) && (config('jukebox.jukebox_mode')) ){
-            //todo: queue song from playlist
+            if(lxmpd::playlistExists('jukebox.jukebox_mode')){
+                //todo: queue song from playlist
+
+            } else {
+
+            }
         }
     }
 }
