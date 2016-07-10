@@ -33,3 +33,5 @@ Route::get('/get/status', 'PlayerController@status');
 Route::get('/get/playlists/{playlist?}', 'PlayerController@getPlaylists');
 
 Route::post('/admin/saveSettings', 'AdminController@postSaveJukeboxSettings');
+
+Route::get('/debug', 'PlayerController@debug');

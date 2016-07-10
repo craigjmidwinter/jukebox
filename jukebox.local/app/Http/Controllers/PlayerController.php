@@ -80,4 +80,14 @@ class PlayerController extends Controller
 		return new JsonResponse($list);
 
 	}
+
+	/**
+	 * temporary route for debugging command output
+	 */
+	public function debug(){
+		
+		$ret = lxmpd::runCommand('listall');
+		
+		return new JsonResponse($ret);
+	}
 }
