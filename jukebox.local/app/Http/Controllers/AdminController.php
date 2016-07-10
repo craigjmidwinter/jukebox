@@ -15,6 +15,13 @@ class AdminController extends Controller
 	}
 	
 	public function index() {
-		return \View::make('admin/admin');
+		$data = [];
+
+		$data['jukeboxMode'] = config('jukebox.jukebox_mode');
+		$data['jukeboxDuplicates'] = config('jukebox.allow_duplicates');
+		$data['jukeboxPlaylist'] = config('jukebox.playlist');
+		$data['playlistValid'] = \lxmpd::playlistExists(config('jukebox.playlist'));
+		$data['allPlaylists'] = \lxmpd::listplaylists();
+		return \View::make('admin/admin', $data);
 	}
 }

@@ -1,5 +1,33 @@
 {% extends 'layouts/html.twig' %}
 
 {% block mainContent %}
+	<h1>Admin</h1>
+	<form>
+		<div class="form-group">
+			<h2>Jukebox</h2>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" {% if jukeboxMode %} checked {% endif %}> Jukebox Mode
+				</label>
+			</div>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" {% if jukeboxDuplicates %} checked {% endif %}> Allow Duplicates
+				</label>
+			</div>
+			<label>Playlist:
+				<select class="form-control">
+					<option value = '' {%  if not playlistValid %}selected{% endif %}>none</option>
+
+					{%  for playlist in playlists %}
+						<option value = '{{ playlist }}' {%  if not playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
+					{% endfor %}
+				</select>
+			</label>
+
+
+		</div>
+
+	</form>
 
 {% endblock %}

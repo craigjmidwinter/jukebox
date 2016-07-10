@@ -10,7 +10,7 @@ return [
 	| When set to true, the player will queue up a random song from the optional jukebox playlist
 	|
 	*/
-	'jukebox.jukebox_mode' => true,
+	'jukebox_mode' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -20,7 +20,7 @@ return [
 	| If set to a valid playlist, random songs will only be from this playlist
 	|
 	*/
-	'jukebox.playlist' => '',
+	'playlist' => '',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,5 +30,5 @@ return [
 	| When set to false, songs will not be queable after being played once.
 	|
 	*/
-	'jukebox.allow_duplicates' => true,
+	'allow_duplicates' => true,
 ]; 
