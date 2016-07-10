@@ -20,7 +20,7 @@
 					<option value = '' {%  if not playlistValid %}selected{% endif %}>none</option>
 
 					{%  for playlist in allPlaylists %}
-						<option value = '{{ playlist }}' {%  if not playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
+						<option value = '{{ playlist }}' {%  if playlist == jukeboxPlaylist %}selected{% endif %}>{{ playlist }}</option>
 					{% endfor %}
 				</select>
 			</label>
