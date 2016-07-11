@@ -93,10 +93,11 @@ class PlayerController extends Controller
 
 		$queuesong = array_rand ($songs,1);
 
-		$songURI = $songs[$queuesong]['file'];
-
+		$song = $songs[$queuesong];
+		$songURI = $song['file'];
 		lxmpd::queue($songURI);
-		
+
+
 		return new JsonResponse($songURI);
 	}
 }
