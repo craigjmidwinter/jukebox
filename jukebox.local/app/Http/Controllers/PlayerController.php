@@ -86,8 +86,17 @@ class PlayerController extends Controller
 	 */
 	public function debug(){
 		
-		$ret = lxmpd::runCommand('listall');
+		//$ret = lxmpd::runCommand('listall');
+
+
+		$songs = lxmpd::runCommand('listall');
+
+		$queuesong = array_rand ($songs,1);
+
+		$songURI = $songs[$queuesong]['file'];
+
+		lxmpd::queue($songURI);
 		
-		return new JsonResponse($ret);
+		return new JsonResponse($songURI);
 	}
 }
