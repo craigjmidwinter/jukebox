@@ -37,15 +37,31 @@ class SongChangedEventListener
                 //todo: queue song from playlist
 
             } else {
-                $songs = lxmpd::runCommand('listall');
 
-                $queuesong = array_rand ($songs,1);
+            	$songFound = false;
 
-                $song = $songs[$queuesong];
-                $songURI = $song['file'];
+	            while(!$songFound){
+		            $song = $this->getRandomSong();
+
+		            if($song['file']){
+			            $songURI = $song['file'];
+			            $songFound = true;
+		            }
+	            }
+
                 lxmpd::queue($songURI);
                 
             }
         }
     }
+
+    private function getRandomSong(){
+	    $songs = lxmpd::runCommand('listall');
+
+	    $queuesong = array_rand ($songs,1);
+
+	    $song = $songs[$queuesong];
+
+	    return $song;
+	}
 }

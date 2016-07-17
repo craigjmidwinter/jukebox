@@ -5,9 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use lxmpd, URL, Redirect;
-use Psy\Util\Json;
-use Symfony\Component\HttpFoundation\JsonResponse;
+use lxmpd, URL, Redirect, View;
+use Symfony\Component\HttpFoundation\StreamedResponse as StreamedResponse;
 
 class PlayerController extends Controller
 {
@@ -21,22 +20,37 @@ class PlayerController extends Controller
 	}
 
 	public function getNowPlayingInfo(){
-		
-		$data = [];
-		$currentSong = lxmpd::getCurrentTrack();
-		$status = lxmpd::getStatus();
-		
-		if(key_exists('Title', $currentSong)){
-			$data['currentSong'] = $currentSong['Title'];
-			$data['currentArtist'] = $currentSong['Artist'];
-			$data['time'] = $status['time'];
-		} else {
-			$data['currentSong'] = 0;
-			$data['currentArtist'] = 0;
-			$data['time'] = $status['time'];
-		}
-		
-		return new JsonResponse($data);
+
+		$response = new StreamedResponse();
+		$response->headers->set('Content-Type', 'text/event-stream');
+		$response->headers->set('Cache-Control', 'no-cache');
+		$response->setCallback( function() {
+			while(true) {
+				$data = [];
+				$currentSong = lxmpd::getCurrentTrack();
+				$status = lxmpd::getStatus();
+
+				if (key_exists('Title', $currentSong)) {
+					$data['currentSong'] = $currentSong['Title'];
+					$data['currentArtist'] = $currentSong['Artist'];
+					$data['time'] = $status['time'];
+				} else {
+					$data['currentSong'] = 0;
+					$data['currentArtist'] = 0;
+					$data['time'] = $status['time'];
+				}
+
+				//echo "event: now playing\n";
+				$dataString = json_encode($data, JSON_FORCE_OBJECT);
+				sleep(3);
+				echo "data: " . $dataString;
+				ob_flush();
+				flush();
+			}
+
+		});
+
+		$response->send();
 	}
 	
 	public function postQueueSong(Request $request){
