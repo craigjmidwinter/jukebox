@@ -127,3 +127,422 @@ Jul 01 02:38 : errno: Failed to open '': Too many levels of symbolic links
 Jul 01 02:38 : client: [38] closed
 Jul 01 02:38 : client: [39] opened from 127.0.0.1:36246
 Jul 01 02:38 : client: [39] closed
+Aug 24 23:15 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Aug 24 23:15 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 24 23:15 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 24 23:15 : output: Failed to open audio output
+Aug 24 23:15 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 24 23:15 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 24 23:15 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 24 23:15 : output: Failed to open audio output
+Aug 24 23:15 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 24 23:16 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 24 23:16 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 24 23:16 : output: Failed to open audio output
+Aug 24 23:16 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 01:23 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:23 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:23 : output: Failed to open audio output
+Aug 25 01:23 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 01:23 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:23 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:23 : output: Failed to open audio output
+Aug 25 01:23 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 01:25 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:25 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:25 : output: Failed to open audio output
+Aug 25 01:25 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 01:34 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:34 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:34 : output: Failed to open audio output
+Aug 25 01:34 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:38 : output: Failed to open audio output
+Aug 25 01:38 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:38 : output: Failed to open audio output
+Aug 25 01:38 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 01:49 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:49 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:49 : output: Failed to open audio output
+Aug 25 01:49 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 01:59 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 01:59 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 01:59 : output: Failed to open audio output
+Aug 25 01:59 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:00 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:00 : output: Failed to open audio output
+Aug 25 02:00 : player: problems opening audio device while playing "Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3"
+Aug 25 02:01 : player: played "Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:01 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:01 : output: Failed to open audio output
+Aug 25 02:01 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+Aug 25 02:01 : player: played "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:01 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:01 : output: Failed to open audio output
+Aug 25 02:01 : player: problems opening audio device while playing "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+Aug 25 02:02 : player: played "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:02 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:02 : output: Failed to open audio output
+Aug 25 02:02 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+Aug 25 02:02 : player: played "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:02 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:02 : output: Failed to open audio output
+Aug 25 02:02 : player: problems opening audio device while playing "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+Aug 25 02:03 : player: played "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:03 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:03 : output: Failed to open audio output
+Aug 25 02:03 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+Aug 25 02:06 : player: played "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:06 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:06 : output: Failed to open audio output
+Aug 25 02:06 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+Aug 25 02:06 : player: played "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:06 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:06 : output: Failed to open audio output
+Aug 25 02:06 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3"
+Aug 25 02:10 : player: played "Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:18 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:18 : output: Failed to open audio output
+Aug 25 02:18 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 02:18 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:18 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:18 : output: Failed to open audio output
+Aug 25 02:18 : player: problems opening audio device while playing "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+Aug 25 02:19 : player: played "02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:19 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:19 : output: Failed to open audio output
+Aug 25 02:19 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:21 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:21 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:21 : output: Failed to open audio output
+Aug 25 02:21 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:22 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:22 : output: Failed to open audio output
+Aug 25 02:22 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:22 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:22 : output: Failed to open audio output
+Aug 25 02:22 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:22 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:22 : output: Failed to open audio output
+Aug 25 02:22 : player: problems opening audio device while playing "51 - Gangsta's Paradise - Coolio.mp3"
+Aug 25 02:23 : player: played "51 - Gangsta's Paradise - Coolio.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:23 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:23 : output: Failed to open audio output
+Aug 25 02:23 : player: problems opening audio device while playing "Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3"
+Aug 25 02:25 : player: played "Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:25 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:25 : output: Failed to open audio output
+Aug 25 02:25 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+Aug 25 02:27 : player: played "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:27 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:27 : output: Failed to open audio output
+Aug 25 02:27 : player: problems opening audio device while playing "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+Aug 25 02:27 : player: played "56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:27 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:27 : output: Failed to open audio output
+Aug 25 02:27 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+Aug 25 02:28 : player: played "Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:28 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:28 : output: Failed to open audio output
+Aug 25 02:28 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3"
+Aug 25 02:28 : player: played "Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:28 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:28 : output: Failed to open audio output
+Aug 25 02:28 : player: problems opening audio device while playing "07 - U Can't Touch This - M.C. Hammer.mp3"
+Aug 25 02:34 : player: played "07 - U Can't Touch This - M.C. Hammer.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:34 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:34 : output: Failed to open audio output
+Aug 25 02:34 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+Aug 25 02:38 : player: played "Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:38 : output: Failed to open audio output
+Aug 25 02:38 : player: problems opening audio device while playing "Various Artists/Now That's What I Call 90s Dance/3-19 Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+Aug 25 02:40 : player: played "Various Artists/Now That's What I Call 90s Dance/3-19 Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Aug 25 02:40 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Aug 25 02:40 : output: Failed to open audio output
+Aug 25 02:40 : player: problems opening audio device while playing "Various Artists/Everybody Dance_ Tous les tubes dance des 90's/2-18 Deee-Lite - Groove Is in the Heart.mp3"
