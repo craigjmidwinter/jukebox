@@ -28,7 +28,7 @@ class SongController extends Controller
 	//	}
 
 		usort($songs, function ($item1, $item2) {
-			return $item1['Title'] <=> $item2['Title'];
+			return ($item1['Title'] < $item2['Title']) ? -1 : (($item1['Title'] > $item2['Title']) ? 1 : 0);
 		});
 
 		$data['songs'] = $songs;
