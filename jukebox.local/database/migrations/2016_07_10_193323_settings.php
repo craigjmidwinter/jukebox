@@ -12,7 +12,11 @@ class Settings extends Migration
      */
     public function up()
     {
-        //
+	    Schema::create('settings', function (Blueprint $table) {
+		    $table->increments('id');
+		    $table->string('setting');
+		    $table->string('value');
+	    });
     }
 
     /**
@@ -23,5 +27,7 @@ class Settings extends Migration
     public function down()
     {
         //
+	    Schema::drop('settings');
+
     }
 }

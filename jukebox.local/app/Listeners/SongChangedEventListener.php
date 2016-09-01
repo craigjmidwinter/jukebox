@@ -36,10 +36,10 @@ class SongChangedEventListener
 	    $this->queueMaintenance();
 
         if(($event->status['nextsongid'] == 0) && (config('jukebox.jukebox_mode')) ){
-            if(lxmpd::playlistExists('jukebox.jukebox_mode')){
+          //  if(lxmpd::playlistExists('jukebox.jukebox_mode')){
                 //todo: queue song from playlist
 
-            } else {
+            //} else {
 
             	$songFound = false;
 
@@ -53,7 +53,7 @@ class SongChangedEventListener
 	            }
                 lxmpd::queue($songURI);
                 
-            }
+            //}
         }
     }
 
