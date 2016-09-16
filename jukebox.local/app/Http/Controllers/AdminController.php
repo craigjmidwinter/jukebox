@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\SettingsRepository;
+use App\Settings;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -18,8 +20,8 @@ class AdminController extends Controller
 	public function index() {
 		$data = [];
 
-		$data['jukeboxMode'] = config('jukebox.jukebox_mode');
-		$data['jukeboxDuplicates'] = config('jukebox.allow_duplicates');
+		$data['jukeboxMode'] = (SettingsRepository::getSettingByKey('jukebox-mode') == Settings::JUKEBOX_MODE_ON) ? true : false;
+		$data['jukeboxDuplicates'] = (SettingsRepository::getSettingByKey('allow-duplicates') == 'on') ? true : false;
 		$data['jukeboxPlaylist'] = config('jukebox.playlist');
 		$data['playlistValid'] = lxmpd::playlistExists(config('jukebox.playlist'));
 		$data['allPlaylists'] = lxmpd::runCommand("listplaylists");
@@ -37,5 +39,11 @@ class AdminController extends Controller
 		]);
 
 		return $this->index();
+	}
+
+	public function dumpSettings(Request $request){
+		$settings = Settings::all();
+
+
 	}
 }
