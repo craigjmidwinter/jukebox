@@ -1,0 +1,28 @@
+sw_volume: 100
+audio_device_state:1:My ALSA Device
+state: pause
+current: 12
+time: 0.000000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3
+1:02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3
+2:51 - Gangsta's Paradise - Coolio.mp3
+3:51 - Gangsta's Paradise - Coolio.mp3
+4:Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3
+5:Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3
+6:56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3
+7:Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3
+8:Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3
+9:07 - U Can't Touch This - M.C. Hammer.mp3
+10:Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3
+11:Various Artists/Now That's What I Call 90s Dance/3-19 Spice Girls - Spice Up Your Life (Morales radio mix).mp3
+12:Various Artists/Everybody Dance_ Tous les tubes dance des 90's/2-18 Deee-Lite - Groove Is in the Heart.mp3
+13:Various Artists/Maxi Dance Hits 94/1-06 Corona - The Rhythm of the Night.mp3
+playlist_end
