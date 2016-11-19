@@ -548,3 +548,7 @@ Aug 25 02:40 : output: Failed to open audio output
 Aug 25 02:40 : player: problems opening audio device while playing "Various Artists/Everybody Dance_ Tous les tubes dance des 90's/2-18 Deee-Lite - Groove Is in the Heart.mp3"
 Sep 15 23:25 : zeroconf: No global port, disabling zeroconf
 Sep 15 23:25 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Sep 27 23:43 : zeroconf: No global port, disabling zeroconf
+Sep 27 23:43 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Nov 19 15:39 : zeroconf: No global port, disabling zeroconf
+Nov 19 15:39 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory

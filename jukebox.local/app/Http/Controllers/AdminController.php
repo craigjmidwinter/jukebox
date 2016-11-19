@@ -22,8 +22,8 @@ class AdminController extends Controller
 
 		$data['jukeboxMode'] = (SettingsRepository::getSettingByKey('jukebox-mode') == Settings::JUKEBOX_MODE_ON) ? true : false;
 		$data['jukeboxDuplicates'] = (SettingsRepository::getSettingByKey('allow-duplicates') == 'on') ? true : false;
-		$data['jukeboxPlaylist'] = config('jukebox.playlist');
-		$data['playlistValid'] = lxmpd::playlistExists(config('jukebox.playlist'));
+		$data['jukeboxPlaylist'] = SettingsRepository::getSettingByKey('jukebox-playlist');
+		$data['playlistValid'] = lxmpd::playlistExists(SettingsRepository::getSettingByKey('jukebox-playlist'));
 		$data['allPlaylists'] = lxmpd::runCommand("listplaylists");
 
 		return \View::make('admin/admin', $data);
@@ -32,11 +32,10 @@ class AdminController extends Controller
 	public function postSaveJukeboxSettings (Request $request) {
 		$playlist = lxmpd::playlistExists($request->input('jukeboxPlaylist'))? $request->input('jukeboxPlaylist') : '';
 
-		config([
-		'jukebox.jukebox_mode' => (($request->input('jukeboxMode') == 'on')? true : false),
-		'jukebox.allow_duplicates' => (($request->input('allowDuplicates') == 'on')? true : false),
-		'jukebox.playlist' => $playlist,
-		]);
+		SettingsRepository::setSetting('jukebox-mode', ($request->input('jukeboxMode') == 'on') ? 'on' : 'off' );
+		SettingsRepository::setSetting('allow-duplicates', ($request->input('allowDuplicates') == 'on')? 'on' : 'off');
+		SettingsRepository::setSetting('jukebox-playlist', ($request->input('allowDuplicates') == 'on')? 'on' : 'off');
+
 
 		return $this->index();
 	}
@@ -44,6 +43,6 @@ class AdminController extends Controller
 	public function dumpSettings(Request $request){
 		$settings = Settings::all();
 
-
+		return new JsonResponse($settings);
 	}
 }

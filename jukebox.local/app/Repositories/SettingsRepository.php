@@ -21,11 +21,12 @@ class SettingsRepository extends Repository
 
 	public static function setSetting($key, $value){
 
-/*
-		DB::table('settings')
-			->where('setting', $key)->first();
 
-		return $results->value;
-*/
+		$setting = DB::table('settings');
+
+		return $setting->updateOrInsert(['setting' => $key],['value' => $value]);
+
+
+
 	}
 }

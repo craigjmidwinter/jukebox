@@ -23,7 +23,8 @@ Route::post('/queue','PlayerController@postQueueSong');
 
 Route::get('/play','PlayerController@play');
 
-Route::auth();
+Route::get('/admin/dumpSettings', 'AdminController@dumpSettings');
+//Route::auth();
 
 Route::any('/admin', 'AdminController@index');
 
@@ -35,3 +36,6 @@ Route::get('/get/playlists/{playlist?}', 'PlayerController@getPlaylists');
 Route::post('/admin/saveSettings', 'AdminController@postSaveJukeboxSettings');
 
 Route::get('/debug', 'PlayerController@debug');
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
