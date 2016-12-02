@@ -27,11 +27,19 @@ class SongController extends Controller
 			$songs = lxmpd::runCommand('find',["artist", $artist]);
 	//	}
 
-		usort($songs, function ($item1, $item2) {
+		$songsfiltered =[];
+
+		foreach ($songs as $song){
+			if(isset($song['Title'])){
+				$songsfiltered[] = $song;
+			}
+		}
+		usort($songsfiltered, function ($item1, $item2) {
+
 			return ($item1['Title'] < $item2['Title']) ? -1 : (($item1['Title'] > $item2['Title']) ? 1 : 0);
 		});
 
-		$data['songs'] = $songs;
+		$data['songs'] = $songsfiltered;
 		
 		return View::make('listing/listing', $data);
 		
