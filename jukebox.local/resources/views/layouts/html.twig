@@ -8,7 +8,9 @@
 	<base href="{{ url('base_url') }}" />
 	{% include 'layouts/partials/css' %}
 	{% include 'layouts/partials/js' %}
-
+	{% if redirect == true %}
+		<meta http-equiv="refresh" content="2; url=/">
+	{% endif %}
 </head>
 <body>
 <div class="container-fluid">

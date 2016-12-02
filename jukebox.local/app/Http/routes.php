@@ -39,3 +39,5 @@ Route::get('/debug', 'PlayerController@debug');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/thanks', 'PlayerController@thanks');

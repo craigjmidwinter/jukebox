@@ -65,7 +65,7 @@ class PlayerController extends Controller
 			lxmpd::refreshInfo();
 		}
 
-		return redirect('/');
+		return redirect('/thanks');
 	}
 	
 	public function play(){
@@ -113,5 +113,10 @@ class PlayerController extends Controller
 
 
 		return new JsonResponse($songURI);
+	}
+
+	public function thanks(){
+		return View::make('thanks');
+
 	}
 }
