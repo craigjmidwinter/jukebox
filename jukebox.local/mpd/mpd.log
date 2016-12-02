@@ -552,3 +552,179 @@ Sep 27 23:43 : zeroconf: No global port, disabling zeroconf
 Sep 27 23:43 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
 Nov 19 15:39 : zeroconf: No global port, disabling zeroconf
 Nov 19 15:39 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Dec 01 02:40 : zeroconf: No global port, disabling zeroconf
+Dec 01 02:40 : errno: Failed to open /home/vagrant/sites/jukebox.local/mpd/state: No such file or directory
+Dec 01 02:40 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Dec 02 04:03 : zeroconf: No global port, disabling zeroconf
+Dec 02 04:03 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Dec 02 04:03 : update: removing 2Pac/Greatest Hits/2-06 California Love (original version).mp3
+Dec 02 04:03 : update: removing Bus Stop/Kung Fu Fighting/01 Bus Stop feat. Carl Douglas - Kung Fu Fighting (radio edit).mp3
+Dec 02 04:03 : update: removing Fugees/Killing Me Softly/01 Killing Me Softly (LP version without intro).mp3
+Dec 02 04:03 : update: removing K-Ci & JoJo/All My Life_ Their Greatest Hits/04 All My Life.mp3
+Dec 02 04:03 : update: removing Robyn - Body Talk/Robyn/Body Talk/03 Robyn - Dancing on My Own.mp3
+Dec 02 04:03 : update: removing Robyn - Body Talk/Robyn/Body Talk/07 Robyn - Hang With Me.mp3
+Dec 02 04:03 : update: removing Various Artists/101 90s Hits/2-03 Jamiroquai - Virtual Insanity.mp3
+Dec 02 04:03 : update: removing Various Artists/101 90s Hits/2-08 Run-D.M.C. vs. Jason Nevins - It's Like That.mp3
+Dec 02 04:03 : update: removing Various Artists/101 90s Hits/4-02 Snap! - Rhythm Is a Dancer.mp3
+Dec 02 04:03 : update: removing Various Artists/1990's Dance/04 Ace of Base - The Sign.mp3
+Dec 02 04:03 : update: removing Various Artists/1990's Dance/05 Snap! - The Power.mp3
+Dec 02 04:03 : update: removing Various Artists/1999 GRAMMY Nominees/01 Brandy & Monica - The Boy Is Mine.mp3
+Dec 02 04:03 : update: removing Various Artists/Bravo Hits_ Best of 94/2-01 All-4-One - I Swear (radio edit).mp3
+Dec 02 04:03 : update: removing Various Artists/Dynamite Dance/2-02 Culture Beat - Mr. Vain.mp3
+Dec 02 04:03 : update: removing Various Artists/Everybody Dance_ Tous les tubes dance des 90's/2-18 Deee-Lite - Groove Is in the Heart.mp3
+Dec 02 04:03 : update: removing Various Artists/Maxi Dance Hits 94/1-06 Corona - The Rhythm of the Night.mp3
+Dec 02 04:03 : update: removing Various Artists/Maxi Dance Hits 94/2-04 Salt-N-Pepa feat. En Vogue - Whatta Man.mp3
+Dec 02 04:03 : update: removing Various Artists/Now Dance 93/01 Ace of Base - All That She Wants.mp3
+Dec 02 04:03 : update: removing Various Artists/Now Dance 93/10 Snow - Informer (radio edit).mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/1-09 Fatboy Slim - The Rockafeller Skank.mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/1-18 Haddaway - What Is Love_.mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/1-20 Cher - Believe.mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/2-18 Reel 2 Real feat. The Mad Stuntman - I Like to Move It.mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/3-07 Apache Indian - Boom Shack-A-Lak.mp3
+Dec 02 04:03 : update: removing Various Artists/Now That's What I Call 90s Dance/3-19 Spice Girls - Spice Up Your Life (Morales radio mix).mp3
+Dec 02 04:03 : update: removing Various Artists/Whatever_ One Hit Wonders of the '90s/Various Artists/Whatever_ One Hit Wonders of the '90s/01 Sir Mix-A-Lot - Baby Got Back.mp3
+Dec 02 04:03 : update: removing Various Artists/Whatever_ One Hit Wonders of the '90s/03 Tag Team - Whoomp! (There It Is).mp3
+Dec 02 04:03 : update: removing 02 - Gonna Make You Sweat (Everybody Dance Now) - C&c Music Factory.mp3
+Dec 02 04:03 : update: removing 06 - Macarena (Bayside Boys Remix) - Los Del Rio.mp3
+Dec 02 04:03 : update: removing 07 - U Can't Touch This - M.C. Hammer.mp3
+Dec 02 04:03 : update: removing 10 - Good Vibrations - Marky Mark And The Funky Bunch.mp3
+Dec 02 04:03 : update: removing 15 - Gettin' Jiggy Wit It - Will Smith.mp3
+Dec 02 04:03 : update: removing 16 - C'mon N' Ride It (The Train) - Quad City Dj's.mp3
+Dec 02 04:03 : update: removing 23 - I'm Too Sexy - Right Said Fred.mp3
+Dec 02 04:03 : update: removing 51 - Gangsta's Paradise - Coolio.mp3
+Dec 02 04:03 : update: removing 56 - Mambo No. 5 ( A Little Bit Of...) - Lou Bega.mp3
+Dec 02 04:03 : update: removing 59 - This Is How We Do It - Montell Jordan.mp3
+Dec 02 04:03 : update: removing 64 - How Bizarre - Omc.mp3
+Dec 02 04:03 : update: removing 71 - Sweat (A La La La La Long) (Original Version) - Inner Circle.mp3
+Dec 02 04:03 : update: removing 76 - Boom, Boom, Boom, Boom!! - Vengaboys.mp3
+Dec 02 04:03 : update: removing 77 - Cotton Eye Joe (Original Single Version) - Rednex.mp3
+Dec 02 04:03 : update: added /1-20 Cher - Believe.mp3
+Dec 02 04:03 : update: added /2Pac - California Love (original version).mp3
+Dec 02 04:03 : update: added /4 Non Blondes - What's up.mp3
+Dec 02 04:03 : update: added /A-ha - Take On Me.mp3
+Dec 02 04:03 : update: added /Ace of Base - All That She Wants.mp3
+Dec 02 04:03 : update: added /Ace of Base - The Sign.mp3
+Dec 02 04:03 : update: added /All-4-One - I Swear (radio edit).mp3
+Dec 02 04:03 : update: added /Alphaville - Forever Young.mp3
+Dec 02 04:03 : update: added /Backstreet Boys - Everybody (Backstreets Back).mp3
+Dec 02 04:03 : update: added /Backstreet Boys - Larger Than Life.mp3
+Dec 02 04:03 : update: added /Belinda Carlise - Heaven Is A Place On Earth.mp3
+Dec 02 04:03 : update: added /Bonnie Tyler - Total Eclipse Of The Heart.mp3
+Dec 02 04:03 : update: added /Brandy & Monica - The Boy Is Mine.mp3
+Dec 02 04:03 : update: added /Britney Spears - Oops! I Did It Again.mp3
+Dec 02 04:03 : update: added /Britney Spears - Toxic.mp3
+Dec 02 04:03 : update: added /Britney Spears - You Drive Me Crazy.mp3
+Dec 02 04:03 : update: added /Bruce Springsteen - Dancing In The Dark.mp3
+Dec 02 04:03 : update: added /C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3
+Dec 02 04:03 : update: added /Capital Cities - Holiday.mp3
+Dec 02 04:03 : update: added /Cee-Lo Green - F--k You.mp3
+Dec 02 04:03 : update: added /Cher - If I Can Turn Back Time.mp3
+Dec 02 04:03 : update: added /Coolio - Gangsta's Paradise.mp3
+Dec 02 04:03 : update: added /Corona - Rhythm Of The Night.mp3
+Dec 02 04:03 : update: added /Corona - The Rhythm of the Night.mp3
+Dec 02 04:03 : update: added /Culture Beat - Mr. Vain.mp3
+Dec 02 04:03 : update: added /Culture Club - Karma Chameleon.mp3
+Dec 02 04:03 : update: added /Deee-Lite - Groove Is in the Heart.mp3
+Dec 02 04:03 : update: added /Falco - Rock Me Amadeus.mp3
+Dec 02 04:03 : update: added /Fatboy Slim - The Rockafeller Skank.mp3
+Dec 02 04:03 : update: added /Fergie - Fergalicious.mp3
+Dec 02 04:03 : update: added /Fine Young Cannibals - She Drives Me Crazy.mp3
+Dec 02 04:03 : update: added /Future Islands - Seasons (Waiting On You) .mp3
+Dec 02 04:03 : update: added /Gnarls Barkley - Crazy.mp3
+Dec 02 04:03 : update: added /Gramatik - Break Loose.mp3
+Dec 02 04:03 : update: added /Haddaway - What Is Love.mp3
+Dec 02 04:03 : update: added /Hall & Oates - Maneater.mp3
+Dec 02 04:03 : update: added /Hall & Oates - Rich Girl.mp3
+Dec 02 04:03 : update: added /Hall & Oates - You Make My Dreams Come True .mp3
+Dec 02 04:03 : update: added /Hot Chip - Over and Over (Maurice Fulton remix).mp3
+Dec 02 04:03 : update: added /Hot Chip - Ready For The Floor.mp3
+Dec 02 04:03 : update: added /Irene Cara - Flashdance ... What A Feeling (Radio Edit).mp3
+Dec 02 04:03 : update: added /Jamiroquai - Virtual Insanity.mp3
+Dec 02 04:03 : update: added /Jennifer Lopez - Love Don't Cost A Thing.mp3
+Dec 02 04:03 : update: added /Jennifer Lopez - Waiting for tonight.mp3
+Dec 02 04:03 : update: added /K-Ci & JoJo - All My Life.mp3
+Dec 02 04:03 : update: added /Kenny Loggins - Danger Zone.mp3
+Dec 02 04:03 : update: added /Lady GaGa - Paparazzi.mp3
+Dec 02 04:03 : update: added /Lady GaGa - Poker Face.mp3
+Dec 02 04:03 : update: added /Lil Wayne - Right Above It (Ft. Drake) .mp3
+Dec 02 04:03 : update: added /Los Del Rio - Macarena (Bayside Boys Remix).mp3
+Dec 02 04:03 : update: added /Lou Bega - Mambo No. 5 ( A Little Bit Of...).mp3
+Dec 02 04:03 : update: added /M.C. Hammer - U Can't Touch This.mp3
+Dec 02 04:03 : update: added /Madonna - Into The Groove.mp3
+Dec 02 04:03 : update: added /Madonna - Like A Prayer.mp3
+Dec 02 04:03 : update: added /Madonna - Material Girl.mp3
+Dec 02 04:03 : update: added /Mariah Carey - Heartbreaker feat. Jay-Z.mp3
+Dec 02 04:03 : update: added /Marky Mark and The Funky Bunch - Good Vibrations.mp3
+Dec 02 04:03 : update: added /Michael Sembello - (Flashdance) She's A Maniac.mp3
+Dec 02 04:03 : update: added /Montell Jordan - This Is How We Do It.mp3
+Dec 02 04:03 : update: added /ODESZA - Say My Name (feat. Zyra).mp3
+Dec 02 04:03 : update: added /Outkast - Hey Ya.mp3
+Dec 02 04:03 : update: added /Paul Engemann - Push It To The Limit (scarface).mp3
+Dec 02 04:03 : update: added /Pitbull - Timber (Intro).mp3
+Dec 02 04:03 : update: added /Quad City DJ's - C'mon N' Ride It (The Train).mp3
+Dec 02 04:03 : update: added /R Kelly - Ignition (Remix).mp3
+Dec 02 04:03 : update: added /Rednex - Cotton Eye Joe (Original Single Version).mp3
+Dec 02 04:03 : update: added /Reel 2 Real feat. The Mad Stuntman - I Like to Move It.mp3
+Dec 02 04:03 : update: added /Rick James - Super Freak.mp3
+Dec 02 04:03 : update: added /Right Said Fred - I'm Too Sexy.mp3
+Dec 02 04:03 : update: added /Rihanna - Umbrella.mp3
+Dec 02 04:03 : update: added /Robyn - Dancing on My Own.mp3
+Dec 02 04:03 : update: added /Robyn - Hang With Me.mp3
+Dec 02 04:03 : update: added /Sir Mix-A-Lot - Baby Got Back.mp3
+Dec 02 04:03 : update: added /Snap! - Rhythm Is a Dancer.mp3
+Dec 02 04:03 : update: added /Snap! - The Power.mp3
+Dec 02 04:03 : update: added /Snow - Informer (radio edit).mp3
+Dec 02 04:03 : update: added /Spice Girls - Spice Up Your Life (Morales radio mix).mp3
+Dec 02 04:03 : update: added /Tag Team - Whoomp! (There It Is).mp3
+Dec 02 04:03 : update: added /The Pointer Sisters - I'm So Excited.mp3
+Dec 02 04:03 : update: added /Twin Shadow - Old Love - New Love (feat. D'Angelo Lacy).mp3
+Dec 02 04:03 : update: added /Usher Lil Jon Ludacris - Yeah!.mp3
+Dec 02 04:03 : update: added /Vengaboys - Boom, Boom, Boom, Boom!!.mp3
+Dec 02 04:03 : update: added /Will Smith - Gettin' Jiggy Wit It.mp3
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 02 04:18 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 02 04:18 : output: Failed to open audio output
+Dec 02 04:18 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 02 04:31 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 02 04:31 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 02 04:31 : output: Failed to open audio output
+Dec 02 04:31 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 02 04:31 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 02 04:31 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 02 04:31 : output: Failed to open audio output
+Dec 02 04:31 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 02 04:33 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 02 04:33 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 02 04:33 : output: Failed to open audio output
+Dec 02 04:33 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
