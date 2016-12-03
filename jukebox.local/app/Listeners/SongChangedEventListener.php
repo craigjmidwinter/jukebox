@@ -46,7 +46,7 @@ class SongChangedEventListener
 	            while(!$songFound){
 		            $song = $this->getRandomSong();
 
-		            if($song['file']){
+		            if($song['file'] && $song['Title']){
 			            $songURI = $song['file'];
 			            $songFound = true;
 		            }
@@ -69,20 +69,20 @@ class SongChangedEventListener
 
 	private function queueMaintenance(){
 
-		echo 'queue maintenance';
+		echo 'queue maintenance' . PHP_EOL;
 
 		$currentSong = lxmpd::getCurrentTrack();
-		$title = $currentSong['Title'];
-		$artist = $currentSong['Artist'];
-		$track = Track::firstOrCreate(array('title' => $title, 'artist' => $artist));
+		//var_dump($currentSong);
 
-/*		if(!$track){
-			$track = new Track();
-			$track->title = $title;
-			$track->artist = $artist;
-		}*/
+		if(isset($currentSong['Title']) && isset($currentSong['Artist']) && isset($currentSong['file'])){
 
-		$track->updateLastPlayed();
+			$title = $currentSong['Title'];
+			$artist = $currentSong['Artist'];
+			$uri = $currentSong['file'];
 
+			$track = Track::firstOrCreate(array('title' => $title, 'artist' => $artist, 'uri' => $uri));
+
+			$track->updateLastPlayed();
+		}
 	}
 }

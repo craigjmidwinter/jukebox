@@ -21,7 +21,7 @@ class Track extends Model
 {
     //
 	public $timestamps = false;
-	protected $fillable = ['title','artist','last_played'];
+	protected $fillable = ['title','artist','last_played','uri'];
 
 	/**
 	 * Updates the last played with the current timestamp
