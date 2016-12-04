@@ -728,3 +728,675 @@ ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
 Dec 02 04:33 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
 Dec 02 04:33 : output: Failed to open audio output
 Dec 02 04:33 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 03 21:20 : zeroconf: No global port, disabling zeroconf
+Dec 03 21:25 : alsa_mixer: Failed to read mixer for 'My ALSA Device': failed to attach to default: No such file or directory
+Dec 03 21:30 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 03 21:30 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:30 : output: Failed to open audio output
+Dec 03 21:30 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 03 21:30 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:30 : output: Failed to open audio output
+Dec 03 21:30 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 03 21:30 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:30 : output: Failed to open audio output
+Dec 03 21:30 : player: problems opening audio device while playing "Cher - If I Can Turn Back Time.mp3"
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+Dec 03 21:30 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:30 : output: Failed to open audio output
+Dec 03 21:31 : player: played "Cher - If I Can Turn Back Time.mp3"
+Dec 03 21:35 : zeroconf: No global port, disabling zeroconf
+Dec 03 21:45 : alsa_mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 03 21:55 : player: played "Cher - If I Can Turn Back Time.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 21:55 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:55 : output: Failed to open audio output
+Dec 03 21:55 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 21:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:56 : output: Failed to open audio output
+Dec 03 21:59 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 21:59 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 21:59 : output: Failed to open audio output
+Dec 03 21:59 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+Dec 03 22:01 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:01 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:01 : output: Failed to open audio output
+Dec 03 22:01 : player: problems opening audio device while playing "Cher - If I Can Turn Back Time.mp3"
+Dec 03 22:02 : player: played "Cher - If I Can Turn Back Time.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:02 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:02 : output: Failed to open audio output
+Dec 03 22:02 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 03 22:02 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:02 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:02 : output: Failed to open audio output
+Dec 03 22:02 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 03 22:03 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:03 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:03 : output: Failed to open audio output
+Dec 03 22:03 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 03 22:03 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:03 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:03 : output: Failed to open audio output
+Dec 03 22:03 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+Dec 03 22:03 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:03 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:03 : output: Failed to open audio output
+Dec 03 22:03 : player: problems opening audio device while playing "Cher - If I Can Turn Back Time.mp3"
+Dec 03 22:06 : player: played "Cher - If I Can Turn Back Time.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:06 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:06 : output: Failed to open audio output
+Dec 03 22:06 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+Dec 03 22:06 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:06 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:06 : output: Failed to open audio output
+Dec 03 22:06 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 03 22:06 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:06 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:06 : output: Failed to open audio output
+Dec 03 22:06 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 03 22:09 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:09 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:09 : output: Failed to open audio output
+Dec 03 22:09 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 03 22:09 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 03 22:09 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 03 22:09 : output: Failed to open audio output
+Dec 03 22:09 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 04 00:35 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:35 : output: Failed to open audio output
+Dec 04 00:35 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 04 00:36 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:36 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:36 : output: Failed to open audio output
+Dec 04 00:36 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 04 00:36 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:36 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:36 : output: Failed to open audio output
+Dec 04 00:36 : player: problems opening audio device while playing "Coolio - Gangsta's Paradise.mp3"
+Dec 04 00:36 : player: played "Coolio - Gangsta's Paradise.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:36 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:36 : output: Failed to open audio output
+Dec 04 00:36 : player: problems opening audio device while playing "Cher - If I Can Turn Back Time.mp3"
+Dec 04 00:36 : player: played "Cher - If I Can Turn Back Time.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:36 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:36 : output: Failed to open audio output
+Dec 04 00:36 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 04 00:37 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:37 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:37 : output: Failed to open audio output
+Dec 04 00:37 : player: problems opening audio device while playing "Corona - Rhythm Of The Night.mp3"
+Dec 04 00:37 : player: played "Corona - Rhythm Of The Night.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:37 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:37 : output: Failed to open audio output
+Dec 04 00:37 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+Dec 04 00:38 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:38 : output: Failed to open audio output
+Dec 04 00:38 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:39 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:39 : output: Failed to open audio output
+Dec 04 00:39 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:39 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:39 : output: Failed to open audio output
+Dec 04 00:39 : player: problems opening audio device while playing "Alphaville - Forever Young.mp3"
+Dec 04 00:39 : player: played "Alphaville - Forever Young.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:39 : output: Failed to open audio output
+Dec 04 00:39 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:39 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:39 : output: Failed to open audio output
+Dec 04 00:39 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:40 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:40 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:40 : output: Failed to open audio output
+Dec 04 00:40 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:40 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:40 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:40 : output: Failed to open audio output
+Dec 04 00:40 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:42 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:42 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:42 : output: Failed to open audio output
+Dec 04 00:42 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:42 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:42 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:42 : output: Failed to open audio output
+Dec 04 00:42 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:43 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:43 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:43 : output: Failed to open audio output
+Dec 04 00:43 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:43 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:43 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:43 : output: Failed to open audio output
+Dec 04 00:43 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:44 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:44 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:44 : output: Failed to open audio output
+Dec 04 00:44 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:44 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:44 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:44 : output: Failed to open audio output
+Dec 04 00:44 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:44 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:44 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:44 : output: Failed to open audio output
+Dec 04 00:44 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:44 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:44 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:44 : output: Failed to open audio output
+Dec 04 00:44 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:49 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:49 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:49 : output: Failed to open audio output
+Dec 04 00:49 : player: problems opening audio device while playing "A-ha - Take On Me.mp3"
+Dec 04 00:49 : player: played "A-ha - Take On Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:49 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:49 : output: Failed to open audio output
+Dec 04 00:49 : player: problems opening audio device while playing "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+Dec 04 00:52 : player: played "C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:52 : output: Failed to open audio output
+Dec 04 00:52 : player: problems opening audio device while playing "Madonna - Into The Groove.mp3"
+Dec 04 00:52 : player: played "Madonna - Into The Groove.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:52 : output: Failed to open audio output
+Dec 04 00:52 : player: problems opening audio device while playing "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+Dec 04 00:52 : player: played "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:52 : output: Failed to open audio output
+Dec 04 00:52 : player: problems opening audio device while playing "Madonna - Material Girl.mp3"
+Dec 04 00:55 : player: played "Madonna - Material Girl.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:55 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:55 : output: Failed to open audio output
+Dec 04 00:55 : player: problems opening audio device while playing "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+Dec 04 00:55 : player: played "Vengaboys - Boom, Boom, Boom, Boom!!.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:55 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:55 : output: Failed to open audio output
+Dec 04 00:55 : player: problems opening audio device while playing "Cher - If I Can Turn Back Time.mp3"
+Dec 04 00:55 : player: played "Cher - If I Can Turn Back Time.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:55 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:55 : output: Failed to open audio output
+Dec 04 00:55 : player: problems opening audio device while playing "Corona - Rhythm Of The Night.mp3"
+Dec 04 00:56 : player: played "Corona - Rhythm Of The Night.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:56 : output: Failed to open audio output
+Dec 04 00:56 : player: problems opening audio device while playing "Outkast - Hey Ya.mp3"
+Dec 04 00:56 : player: played "Outkast - Hey Ya.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:56 : output: Failed to open audio output
+Dec 04 00:56 : player: problems opening audio device while playing "Haddaway - What Is Love.mp3"
+Dec 04 00:56 : player: played "Haddaway - What Is Love.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:56 : output: Failed to open audio output
+Dec 04 00:56 : player: problems opening audio device while playing "Britney Spears - Oops! I Did It Again.mp3"
+Dec 04 00:57 : player: played "Britney Spears - Oops! I Did It Again.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:57 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:57 : output: Failed to open audio output
+Dec 04 00:57 : player: problems opening audio device while playing "Corona - The Rhythm of the Night.mp3"
+Dec 04 00:57 : player: played "Corona - The Rhythm of the Night.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:57 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:57 : output: Failed to open audio output
+Dec 04 00:57 : player: problems opening audio device while playing "Bruce Springsteen - Dancing In The Dark.mp3"
+Dec 04 00:57 : player: played "Bruce Springsteen - Dancing In The Dark.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:57 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:57 : output: Failed to open audio output
+Dec 04 00:57 : player: problems opening audio device while playing "Tag Team - Whoomp! (There It Is).mp3"
+Dec 04 00:57 : player: played "Tag Team - Whoomp! (There It Is).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:57 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:57 : output: Failed to open audio output
+Dec 04 00:57 : player: problems opening audio device while playing "Ace of Base - The Sign.mp3"
+Dec 04 00:58 : player: played "Ace of Base - The Sign.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:58 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:58 : output: Failed to open audio output
+Dec 04 00:58 : player: problems opening audio device while playing "Kenny Loggins - Danger Zone.mp3"
+Dec 04 00:59 : player: played "Kenny Loggins - Danger Zone.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 00:59 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 00:59 : output: Failed to open audio output
+Dec 04 00:59 : player: problems opening audio device while playing "Fatboy Slim - The Rockafeller Skank.mp3"
+Dec 04 01:15 : player: played "Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:15 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:15 : output: Failed to open audio output
+Dec 04 01:15 : player: problems opening audio device while playing "Madonna - Like A Prayer.mp3"
+Dec 04 01:22 : player: played "Madonna - Like A Prayer.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:22 : output: Failed to open audio output
+Dec 04 01:22 : player: problems opening audio device while playing "Madonna - Like A Prayer.mp3"
+Dec 04 01:22 : player: played "Madonna - Like A Prayer.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:22 : output: Failed to open audio output
+Dec 04 01:22 : player: problems opening audio device while playing "Fatboy Slim - The Rockafeller Skank.mp3"
+Dec 04 01:22 : player: played "Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:22 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:22 : output: Failed to open audio output
+Dec 04 01:22 : player: problems opening audio device while playing "Madonna - Like A Prayer.mp3"
+Dec 04 01:24 : player: played "Madonna - Like A Prayer.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:24 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:24 : output: Failed to open audio output
+Dec 04 01:24 : player: problems opening audio device while playing "Ace of Base - The Sign.mp3"
+Dec 04 01:24 : player: played "Ace of Base - The Sign.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:24 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:24 : output: Failed to open audio output
+Dec 04 01:24 : player: problems opening audio device while playing "Madonna - Like A Prayer.mp3"
+Dec 04 01:27 : player: played "Madonna - Like A Prayer.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:27 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:27 : output: Failed to open audio output
+Dec 04 01:27 : player: problems opening audio device while playing "Kenny Loggins - Danger Zone.mp3"
+Dec 04 01:27 : player: played "Kenny Loggins - Danger Zone.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:27 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:27 : output: Failed to open audio output
+Dec 04 01:27 : player: problems opening audio device while playing "Madonna - Like A Prayer.mp3"
+Dec 04 01:27 : player: played "Madonna - Like A Prayer.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:28 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:28 : output: Failed to open audio output
+Dec 04 01:28 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:33 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:33 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:33 : output: Failed to open audio output
+Dec 04 01:33 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:34 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:34 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:34 : output: Failed to open audio output
+Dec 04 01:34 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:35 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:35 : output: Failed to open audio output
+Dec 04 01:35 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:35 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:35 : output: Failed to open audio output
+Dec 04 01:35 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:35 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:35 : output: Failed to open audio output
+Dec 04 01:35 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:35 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:35 : output: Failed to open audio output
+Dec 04 01:35 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:35 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:35 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:35 : output: Failed to open audio output
+Dec 04 01:35 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:36 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:36 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:36 : output: Failed to open audio output
+Dec 04 01:36 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:37 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:37 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:37 : output: Failed to open audio output
+Dec 04 01:37 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:37 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:37 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:37 : output: Failed to open audio output
+Dec 04 01:37 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:38 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:38 : output: Failed to open audio output
+Dec 04 01:38 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:38 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:38 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:38 : output: Failed to open audio output
+Dec 04 01:38 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:39 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:39 : output: Failed to open audio output
+Dec 04 01:39 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:39 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:39 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:39 : output: Failed to open audio output
+Dec 04 01:39 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:45 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:45 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:45 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:45 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:45 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Haddaway - What Is Love.mp3"
+Dec 04 01:45 : player: played "Haddaway - What Is Love.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Montell Jordan - This Is How We Do It.mp3"
+Dec 04 01:45 : player: played "Montell Jordan - This Is How We Do It.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "1-20 Cher - Believe.mp3"
+Dec 04 01:45 : player: played "1-20 Cher - Believe.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Culture Club - Karma Chameleon.mp3"
+Dec 04 01:45 : player: played "Culture Club - Karma Chameleon.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+Dec 04 01:45 : player: played "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:45 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:45 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+Dec 04 01:45 : player: played "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:45 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:45 : output: Failed to open audio output
+Dec 04 01:45 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:47 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:47 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:47 : output: Failed to open audio output
+Dec 04 01:47 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:47 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:47 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:47 : output: Failed to open audio output
+Dec 04 01:47 : player: problems opening audio device while playing "Tag Team - Whoomp! (There It Is).mp3"
+Dec 04 01:47 : player: played "Tag Team - Whoomp! (There It Is).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:47 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:47 : output: Failed to open audio output
+Dec 04 01:47 : player: problems opening audio device while playing "Outkast - Hey Ya.mp3"
+Dec 04 01:47 : player: played "Outkast - Hey Ya.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:47 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:47 : output: Failed to open audio output
+Dec 04 01:47 : player: problems opening audio device while playing "Britney Spears - Oops! I Did It Again.mp3"
+Dec 04 01:47 : player: played "Britney Spears - Oops! I Did It Again.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:47 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:47 : output: Failed to open audio output
+Dec 04 01:47 : player: problems opening audio device while playing "Gnarls Barkley - Crazy.mp3"
+Dec 04 01:48 : player: played "Gnarls Barkley - Crazy.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:48 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:48 : output: Failed to open audio output
+Dec 04 01:48 : player: problems opening audio device while playing "Hall & Oates - You Make My Dreams Come True .mp3"
+Dec 04 01:48 : player: played "Hall & Oates - You Make My Dreams Come True .mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:48 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:48 : output: Failed to open audio output
+Dec 04 01:48 : player: problems opening audio device while playing "Backstreet Boys - Larger Than Life.mp3"
+Dec 04 01:49 : player: played "Backstreet Boys - Larger Than Life.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:49 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:49 : output: Failed to open audio output
+Dec 04 01:49 : player: problems opening audio device while playing "Gramatik - Break Loose.mp3"
+Dec 04 01:50 : player: played "Gramatik - Break Loose.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:50 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:50 : output: Failed to open audio output
+Dec 04 01:50 : player: problems opening audio device while playing "R Kelly - Ignition (Remix).mp3"
+Dec 04 01:52 : player: played "R Kelly - Ignition (Remix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:52 : output: Failed to open audio output
+Dec 04 01:52 : player: problems opening audio device while playing "Capital Cities - Holiday.mp3"
+Dec 04 01:52 : player: played "Capital Cities - Holiday.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:52 : output: Failed to open audio output
+Dec 04 01:52 : player: problems opening audio device while playing "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+Dec 04 01:52 : player: played "Bonnie Tyler - Total Eclipse Of The Heart.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:52 : output: Failed to open audio output
+Dec 04 01:52 : player: problems opening audio device while playing "Haddaway - What Is Love.mp3"
+Dec 04 01:52 : player: played "Haddaway - What Is Love.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:52 : output: Failed to open audio output
+Dec 04 01:52 : player: problems opening audio device while playing "Montell Jordan - This Is How We Do It.mp3"
+Dec 04 01:52 : player: played "Montell Jordan - This Is How We Do It.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:52 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:52 : output: Failed to open audio output
+Dec 04 01:52 : player: problems opening audio device while playing "1-20 Cher - Believe.mp3"
+Dec 04 01:53 : player: played "1-20 Cher - Believe.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Culture Club - Karma Chameleon.mp3"
+Dec 04 01:53 : player: played "Culture Club - Karma Chameleon.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+Dec 04 01:53 : player: played "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:53 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Robyn - Hang With Me.mp3"
+Dec 04 01:53 : player: played "Robyn - Hang With Me.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Tag Team - Whoomp! (There It Is).mp3"
+Dec 04 01:53 : player: played "Tag Team - Whoomp! (There It Is).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:53 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:53 : output: Failed to open audio output
+Dec 04 01:53 : player: problems opening audio device while playing "Outkast - Hey Ya.mp3"
+Dec 04 01:55 : player: played "Outkast - Hey Ya.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:55 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:55 : output: Failed to open audio output
+Dec 04 01:55 : player: problems opening audio device while playing "Corona - Rhythm Of The Night.mp3"
+Dec 04 01:56 : player: played "Corona - Rhythm Of The Night.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:56 : output: Failed to open audio output
+Dec 04 01:56 : player: problems opening audio device while playing "M.C. Hammer - U Can't Touch This.mp3"
+Dec 04 01:56 : player: played "M.C. Hammer - U Can't Touch This.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:56 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:56 : output: Failed to open audio output
+Dec 04 01:56 : player: problems opening audio device while playing "Lil Wayne - Right Above It (Ft. Drake) .mp3"
+Dec 04 01:58 : player: played "Lil Wayne - Right Above It (Ft. Drake) .mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:58 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:58 : output: Failed to open audio output
+Dec 04 01:58 : player: problems opening audio device while playing "Corona - Rhythm Of The Night.mp3"
+Dec 04 01:58 : player: played "Corona - Rhythm Of The Night.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:58 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:58 : output: Failed to open audio output
+Dec 04 01:58 : player: problems opening audio device while playing "Madonna - Into The Groove.mp3"
+Dec 04 01:58 : player: played "Madonna - Into The Groove.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:58 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:58 : output: Failed to open audio output
+Dec 04 01:58 : player: problems opening audio device while playing "Los Del Rio - Macarena (Bayside Boys Remix).mp3"
+Dec 04 01:59 : player: played "Los Del Rio - Macarena (Bayside Boys Remix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 01:59 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 01:59 : output: Failed to open audio output
+Dec 04 01:59 : player: problems opening audio device while playing "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+Dec 04 02:00 : player: played "Spice Girls - Spice Up Your Life (Morales radio mix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Hot Chip - Over and Over (Maurice Fulton remix).mp3"
+Dec 04 02:00 : player: played "Hot Chip - Over and Over (Maurice Fulton remix).mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Rihanna - Umbrella.mp3"
+Dec 04 02:00 : player: played "Rihanna - Umbrella.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Future Islands - Seasons (Waiting On You) .mp3"
+Dec 04 02:00 : player: played "Future Islands - Seasons (Waiting On You) .mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Britney Spears - You Drive Me Crazy.mp3"
+Dec 04 02:00 : player: played "Britney Spears - You Drive Me Crazy.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "K-Ci & JoJo - All My Life.mp3"
+Dec 04 02:00 : player: played "K-Ci & JoJo - All My Life.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Mariah Carey - Heartbreaker feat. Jay-Z.mp3"
+Dec 04 02:00 : player: played "Mariah Carey - Heartbreaker feat. Jay-Z.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:00 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:00 : output: Failed to open audio output
+Dec 04 02:00 : player: problems opening audio device while playing "Fatboy Slim - The Rockafeller Skank.mp3"
+Dec 04 02:01 : player: played "Fatboy Slim - The Rockafeller Skank.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:01 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:01 : output: Failed to open audio output
+Dec 04 02:01 : player: problems opening audio device while playing "Hall & Oates - Maneater.mp3"
+Dec 04 02:01 : player: played "Hall & Oates - Maneater.mp3"
+ALSA lib pcm_dmix.c:1029:(snd_pcm_dmix_open) unable to open slave
+Dec 04 02:01 : alsa_output: Failed to open "My ALSA Device" [alsa]: Failed to open ALSA device "default": No such file or directory
+Dec 04 02:01 : output: Failed to open audio output
+Dec 04 02:01 : player: problems opening audio device while playing "Michael Sembello - (Flashdance) She's A Maniac.mp3"

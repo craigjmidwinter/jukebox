@@ -15,8 +15,11 @@ class AddUriFieldToTracksTable extends Migration
         Schema::table('tracks', function (Blueprint $table) {
             //
 	        $table->string('uri',1000);
-
         });
+
+	    DB::statement('ALTER TABLE `tracks` MODIFY title VARCHAR(255);');
+	    DB::statement('ALTER TABLE `tracks` MODIFY artist VARCHAR(255);');
+
     }
 
     /**

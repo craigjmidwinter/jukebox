@@ -16,6 +16,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereLastPlayed($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereTitle($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereArtist($value)
+ * @property string $uri
+ * @method static \Illuminate\Database\Query\Builder|\App\Track whereUri($value)
  */
 class Track extends Model
 {
@@ -29,9 +31,9 @@ class Track extends Model
 	public function updateLastPlayed(){
 
 		echo 'updating';
-		$now = new \DateTime();
 
-		$this->last_played = $now->getTimestamp();
+
+		$this->last_played = strtotime('now');
 		$this->save();
 
 	}
