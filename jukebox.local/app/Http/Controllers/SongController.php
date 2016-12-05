@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Artist;
+use App\Track;
+use App\Settings;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -12,34 +15,18 @@ class SongController extends Controller
     //
 	public function getSongList($artist){
 
-		$songs = [];
-
-		$artist = urldecode($artist);
+		$artist = Artist::whereName(urldecode($artist))->first();
 
 		$data['listingType'] = 'song';
-		$data['artist'] = $artist;
-		$data['pageSubtitle'] = $artist;
-		
+		$data['artist'] = $artist->name;
+		$data['pageSubtitle'] = $artist->name;
 
-	//	$albums = lxmpd::runCommand("list",["album", stripslashes($artist)]);
+		$songs = $artist->tracks()
+			->where('last_played','<=',strtotime(Settings::DUPE_TIME))
+			->orderBy('title')
+			->get();
 
-	//	foreach($albums as $album){
-			$songs = lxmpd::runCommand('find',["artist", $artist]);
-	//	}
-
-		$songsfiltered =[];
-
-		foreach ($songs as $song){
-			if(isset($song['Title'])){
-				$songsfiltered[] = $song;
-			}
-		}
-		usort($songsfiltered, function ($item1, $item2) {
-
-			return ($item1['Title'] < $item2['Title']) ? -1 : (($item1['Title'] > $item2['Title']) ? 1 : 0);
-		});
-
-		$data['songs'] = $songsfiltered;
+		$data['songs'] = $songs;
 		
 		return View::make('listing/listing', $data);
 		

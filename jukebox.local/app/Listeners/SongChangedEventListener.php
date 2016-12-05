@@ -33,7 +33,7 @@ class SongChangedEventListener {
 		$this->jukeboxMode = SettingsRepository::getSettingByKey('jukebox-mode') == Settings::JUKEBOX_MODE_ON;
 		$this->allowDuplicates = SettingsRepository::getSettingByKey('allow-duplicates') == 'on';
 
-		$this->dupeTimestamp = strtotime('-2 hours');
+		$this->dupeTimestamp = strtotime(Settings::DUPE_TIME);
 	}
 
 	/**
@@ -119,16 +119,7 @@ class SongChangedEventListener {
 		$currentSong = lxmpd::getCurrentTrack();
 		//var_dump($currentSong);
 
-		if (isset($currentSong['Title']) && isset($currentSong['Artist']) && isset($currentSong['file'])) {
-
-			$title = $currentSong['Title'];
-			$artist = $currentSong['Artist'];
-			$uri = $currentSong['file'];
-
-			$track = Track::firstOrCreate(array('title' => $title, 'artist' => $artist, 'uri' => $uri));
-
-		} elseif (isset($currentSong['file'])) {
-
+		if (isset($currentSong['file'])) {
 			$uri = $currentSong['file'];
 			$track = Track::firstOrCreate(array('uri' => $uri));
 		} else {

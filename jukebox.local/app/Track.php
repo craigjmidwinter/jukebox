@@ -18,12 +18,14 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereArtist($value)
  * @property string $uri
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereUri($value)
+ * @property integer $artist_id
+ * @method static \Illuminate\Database\Query\Builder|\App\Track whereArtistId($value)
  */
 class Track extends Model
 {
     //
 	public $timestamps = false;
-	protected $fillable = ['title','artist','last_played','uri'];
+	protected $fillable = ['title','artist_id','last_played','uri'];
 
 	/**
 	 * Updates the last played with the current timestamp
@@ -32,9 +34,11 @@ class Track extends Model
 
 		echo 'updating';
 
-
 		$this->last_played = strtotime('now');
 		$this->save();
+	}
 
+	public function artist(){
+		return $this->belongsTo('App\Artist');
 	}
 }
