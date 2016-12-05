@@ -20,6 +20,8 @@ class Settings extends Model
 	const JUKEBOX_MODE_ON = 'on';
 	const JUKEBOX_MODE_OFF = 'off';
 
+	const DUPE_TIME = '-1 Day';
+
 
 	protected $table = 'settings';
 

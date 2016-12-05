@@ -1,2 +1,7 @@
 
-<form><input type="hidden" name="_token" value="{{ csrf_token() }}"> <button class="list-group-item" formaction="/queue" name="song" formmethod="post" value="{{ song.file }}" onclick="submit">{{ song.Title }}</button></form>
+<form>
+	<input type="hidden" name="_token" value="{{ csrf_token() }}">
+	<button class="list-group-item" formaction="/queue" name="song" formmethod="post" value="{{ song.uri }}" onclick="submit">
+		{{ song.title }}
+	</button>
+</form>
