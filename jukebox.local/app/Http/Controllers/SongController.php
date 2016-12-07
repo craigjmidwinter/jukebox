@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Artist;
 use App\Track;
 use App\Settings;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -17,15 +18,22 @@ class SongController extends Controller
 	public function getSongList($artistId){
 
 		$artist = Artist::whereId($artistId)->first();
+		$songs = new Collection();
 
 		$data['listingType'] = 'song';
 		$data['artist'] = $artist->name;
 		$data['pageSubtitle'] = $artist->name;
 
-		$songs = $artist->tracks()
+		$tracks = Track::whereArtistId($artist->id)
 			->where('last_played','<=',strtotime(Settings::DUPE_TIME))
-			->orderBy('title')
 			->get();
+
+		foreach ($tracks as $track){
+			$queueTime = $track->lastQueueTime();
+			if($queueTime <= strtotime(Settings::DUPE_TIME)){
+				$songs->add($track);
+			}
+		}
 
 		$data['songs'] = $songs;
 		

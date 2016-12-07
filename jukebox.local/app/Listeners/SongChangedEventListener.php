@@ -76,27 +76,22 @@ class SongChangedEventListener {
 					echo 'dupestamp: ' . $this->dupeTimestamp . PHP_EOL;
 					echo 'dupe: ' . ($track->last_played > $this->dupeTimestamp ? 'yes' : 'no') . PHP_EOL;
 
-				} else {
-					echo PHP_EOL;echo PHP_EOL;
-					echo 'No track found for ' . $song['file'] . PHP_EOL;
-				}
-
-				if (!$track || $track->last_played < $this->dupeTimestamp || $songAttempts >= self::DUPE_COUNT || $this->allowDuplicates) {
-					$songURI = $song['file'];
-					$songFound = true;
-				} else {
-					$songAttempts++;
-
-					if ($track->last_played > $this->dupeTimestamp) {
+					if ($track->last_played < strtotime(Settings::DUPE_TIME) || $songAttempts >= self::DUPE_COUNT || $this->allowDuplicates) {
+						$track->queueTrack();
+						$songFound = true;
+					} elseif ($track->last_played > $this->dupeTimestamp) {
 						echo 'pick attempt #' . $songAttempts . PHP_EOL;
 						echo 'picked song ' . $track->uri . ' just played' . PHP_EOL;
 					}
+				} else {
+					echo PHP_EOL . PHP_EOL;
+					echo 'No track found for ' . $song['file'] . PHP_EOL;
 				}
 
+
+				$songAttempts++;
+
 			}
-
-			lxmpd::queue($songURI);
-
 		}
 	}
 
@@ -117,14 +112,11 @@ class SongChangedEventListener {
 		$track = false;
 
 		$currentSong = lxmpd::getCurrentTrack();
-		//var_dump($currentSong);
 
 		if (isset($currentSong['file'])) {
 			$uri = $currentSong['file'];
 			$track = Track::firstOrCreate(array('uri' => $uri));
 		} else {
-			//echo 'No track found for ' . $currentSong['file'] . PHP_EOL;
-
 			var_dump($currentSong);
 		}
 

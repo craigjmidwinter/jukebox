@@ -2,7 +2,9 @@
 
 namespace App;
 
+use App\Repositories\SettingsRepository;
 use Illuminate\Database\Eloquent\Model;
+use lxmpd;
 
 /**
  * App\Track
@@ -21,16 +23,17 @@ use Illuminate\Database\Eloquent\Model;
  * @property integer $artist_id
  * @method static \Illuminate\Database\Query\Builder|\App\Track whereArtistId($value)
  */
-class Track extends Model
-{
-    //
+class Track extends Model {
+
+	//
 	public $timestamps = false;
-	protected $fillable = ['title','artist_id','last_played','uri'];
+
+	protected $fillable = ['title', 'artist_id', 'last_played', 'uri'];
 
 	/**
 	 * Updates the last played with the current timestamp
 	 */
-	public function updateLastPlayed(){
+	public function updateLastPlayed() {
 
 		echo 'updating';
 
@@ -38,7 +41,34 @@ class Track extends Model
 		$this->save();
 	}
 
-	public function artist(){
+	public function queueTrack($queueType = Queue::AUTO_QUEUE) {
+
+		$queueRecord = new Queue(['track_id' => $this->id, 'queue_type' => $queueType]);
+		$queueRecord->queue_time = strtotime('now');
+		$queueRecord->save();
+
+		lxmpd::queue($this->uri);
+	}
+
+	public function artist() {
+
 		return $this->belongsTo('App\Artist');
 	}
+
+	public function queueRecords() {
+
+		return $this->hasMany('App\Queue');
+	}
+
+	public function lastQueueTime() {
+
+		$queueRecord =
+			Queue::where('track_id', $this->id)
+				->orderBy('queue_time', 'desc')
+				->first();
+
+		return $queueRecord ? $queueRecord->queue_time : 0;
+	}
+
+
 }

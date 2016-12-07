@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Artist;
 use App\Settings;
+use App\Track;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -26,7 +27,19 @@ class ArtistController extends Controller
 		$playableArtists = [];
 
 		foreach ($artists as $artist){
-			$tracksAvailable = $artist->tracks()->where('last_played','<=',strtotime(Settings::DUPE_TIME))->count();
+
+			$tracksAvailable = 0;
+
+			$tracks = Track::whereArtistId($artist->id)
+						->where('last_played','<=',strtotime(Settings::DUPE_TIME))
+						->get();
+
+			foreach ($tracks as $track){
+				$queueTime = $track->lastQueueTime();
+				if($queueTime <= strtotime(Settings::DUPE_TIME)){
+					$tracksAvailable++;
+				}
+			}
 
 			if($tracksAvailable > 0){
 				$playableArtists[] = $artist;
