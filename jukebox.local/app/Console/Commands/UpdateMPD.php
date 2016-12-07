@@ -63,6 +63,5 @@ class UpdateMPD extends Command
 			    }
 		    }
 	    }
-
     }
 }
