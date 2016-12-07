@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Queue;
+use App\Repositories\SettingsRepository;
+use App\Track;
+use App\Settings;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -54,15 +58,24 @@ class PlayerController extends Controller
 	}
 	
 	public function postQueueSong(Request $request){
+
 		$songUri = $request->input('song');
-		
-		lxmpd::queue($songUri);
 
-		$status = lxmpd::getStatus();
+		$track = Track::whereUri($songUri)->first();
 
-		if($status['state'] != 'playing'){
-			lxmpd::play();
-			lxmpd::refreshInfo();
+		if(!$track){
+			return false;
+		}
+
+		if ($track->last_played < strtotime(Settings::DUPE_TIME) || $track->lastQueueTime() < strtotime(Settings::DUPE_TIME) || SettingsRepository::allowDuplicates()) {
+			$track->queueTrack(Queue::USER_QUEUE);
+
+			$status = lxmpd::getStatus();
+
+			if($status['state'] != 'playing'){
+				lxmpd::play();
+				lxmpd::refreshInfo();
+			}
 		}
 
 		return redirect('/thanks');

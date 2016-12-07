@@ -42,23 +42,26 @@ class UpdateMPD extends Command
     public function handle()
     {
         //
+	    if($this->confirm('This will remove all data from the queue table and repopulate the tracks and artists, are you sure?')){
 
-	    $command = "mpc -h '" . config('lxmpd.password') ."@localhost' update";
+		    $command = "mpc -h '" . config('lxmpd.password') ."@localhost' update";
 
-	    exec($command);
+		    exec($command);
 
-	    DB::table('tracks')->truncate();
-	    DB::table('artists')->truncate();
+		    DB::table('tracks')->truncate();
+		    DB::table('artists')->truncate();
+		    DB::table('queues')->truncate();
 
-		$allFiles = $data['artists'] = lxmpd::runCommand('listallinfo');
+		    $allFiles = $data['artists'] = lxmpd::runCommand('listallinfo');
 
-	    foreach ($allFiles as $file){
+		    foreach ($allFiles as $file){
 
-		    if(isset($file['Artist']) && isset($file['Title']) && isset($file['file'])){
-				$artist = Artist::firstOrCreate(array('name' => $file['Artist']));
-				$track = new Track(array('title' => $file['Title'],'artist_id' => $artist->id,'uri' => $file['file']));
-				$track->save();
-			}
+			    if(isset($file['Artist']) && isset($file['Title']) && isset($file['file'])){
+				    $artist = Artist::firstOrCreate(array('name' => $file['Artist']));
+				    $track = new Track(array('title' => $file['Title'],'artist_id' => $artist->id,'uri' => $file['file']));
+				    $track->save();
+			    }
+		    }
 	    }
     }
 }
