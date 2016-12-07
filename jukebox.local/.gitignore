@@ -7,3 +7,6 @@ Homestead.json
 /mpd/music/*
 .idea
 .provision
+/mpd/state
+mpd/playlists/
+mpd/state

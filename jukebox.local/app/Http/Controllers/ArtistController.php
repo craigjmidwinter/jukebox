@@ -29,7 +29,7 @@ class ArtistController extends Controller
 			$tracksAvailable = $artist->tracks()->where('last_played','<=',strtotime(Settings::DUPE_TIME))->count();
 
 			if($tracksAvailable > 0){
-				$playableArtists[] = $artist->name;
+				$playableArtists[] = $artist;
 			}
 		}
 

@@ -9,13 +9,14 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use lxmpd,View;
+//use Artist
 
 class SongController extends Controller
 {
     //
-	public function getSongList($artist){
+	public function getSongList($artistId){
 
-		$artist = Artist::whereName(urldecode($artist))->first();
+		$artist = Artist::whereId($artistId)->first();
 
 		$data['listingType'] = 'song';
 		$data['artist'] = $artist->name;
