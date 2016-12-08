@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         // Commands\Inspire::class,
         Commands\MpdListener::class,
 	    Commands\UpdateMPD::class,
+	    Commands\MpdWatchdog::class,
     ];
 
     /**
