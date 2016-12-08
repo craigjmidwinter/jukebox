@@ -1,7 +1,7 @@
 sw_volume: 100
 audio_device_state:1:My ALSA Device
 state: pause
-current: 40
+current: 42
 time: 0.000000
 random: 0
 repeat: 0
@@ -53,4 +53,5 @@ playlist_begin
 39:Snap! - Rhythm Is a Dancer.mp3
 40:ODESZA - Say My Name (feat. Zyra).mp3
 41:Irene Cara - Flashdance ... What A Feeling (Radio Edit).mp3
+42:Gramatik - Break Loose.mp3
 playlist_end
