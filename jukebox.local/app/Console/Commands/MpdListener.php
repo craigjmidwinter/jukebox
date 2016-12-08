@@ -6,6 +6,7 @@ use App\Events\SongChanged;
 use Illuminate\Console\Command;
 use lxmpd;
 use Event;
+use App\Repositories\SettingsRepository;
 
 define ('MPDEVENTLISTENER_ONSTOP', 'onStop');
 define ('MPDEVENTLISTENER_ONPAUSE', 'onPause');
@@ -65,8 +66,11 @@ class MpdListener extends Command
      */
     public function handle()
     {
-        $this->checkTime = $this->argument('checkTime');
-        $this->startListening();
+	    if(SettingsRepository::jukeboxMode()){
+
+		    $this->checkTime = $this->argument('checkTime');
+		    $this->startListening();
+	    }
     }
 
     public function startListening() {

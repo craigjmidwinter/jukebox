@@ -29,5 +29,8 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+
+	    $schedule->command('mpd:listen')->everyMinute()->withoutOverlapping();
+	    $schedule->command('mpd:watchdog')->everyMinute()->withoutOverlapping();
     }
 }

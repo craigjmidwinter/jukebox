@@ -40,7 +40,7 @@ class MpdWatchdog extends Command
      */
     public function handle() {
 
-	    if (SettingsRepository::jukeboxMode()) {
+	    while (SettingsRepository::jukeboxMode()) {
 
 		    $status = lxmpd::getStatus();
 
@@ -53,6 +53,8 @@ class MpdWatchdog extends Command
 			    lxmpd::play();
 			    lxmpd::refreshInfo();
 		    }
+
+		    sleep(5);
 	    }
     }
 }
