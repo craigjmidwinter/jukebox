@@ -1,8 +1,6 @@
 sw_volume: 100
 audio_device_state:1:My ALSA Device
-state: pause
-current: 42
-time: 0.000000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -11,47 +9,4 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Capital Cities - Holiday.mp3
-1:Bonnie Tyler - Total Eclipse Of The Heart.mp3
-2:Haddaway - What Is Love.mp3
-3:Montell Jordan - This Is How We Do It.mp3
-4:1-20 Cher - Believe.mp3
-5:Culture Club - Karma Chameleon.mp3
-6:Spice Girls - Spice Up Your Life (Morales radio mix).mp3
-7:Robyn - Hang With Me.mp3
-8:Robyn - Hang With Me.mp3
-9:Tag Team - Whoomp! (There It Is).mp3
-10:Outkast - Hey Ya.mp3
-11:Britney Spears - Oops! I Did It Again.mp3
-12:Gnarls Barkley - Crazy.mp3
-13:Hall & Oates - You Make My Dreams Come True .mp3
-14:Backstreet Boys - Larger Than Life.mp3
-15:Gramatik - Break Loose.mp3
-16:R Kelly - Ignition (Remix).mp3
-17:Corona - Rhythm Of The Night.mp3
-18:M.C. Hammer - U Can't Touch This.mp3
-19:Lil Wayne - Right Above It (Ft. Drake) .mp3
-20:Corona - Rhythm Of The Night.mp3
-21:Madonna - Into The Groove.mp3
-22:Los Del Rio - Macarena (Bayside Boys Remix).mp3
-23:Spice Girls - Spice Up Your Life (Morales radio mix).mp3
-24:Hot Chip - Over and Over (Maurice Fulton remix).mp3
-25:Rihanna - Umbrella.mp3
-26:Future Islands - Seasons (Waiting On You) .mp3
-27:Britney Spears - You Drive Me Crazy.mp3
-28:K-Ci & JoJo - All My Life.mp3
-29:Mariah Carey - Heartbreaker feat. Jay-Z.mp3
-30:Fatboy Slim - The Rockafeller Skank.mp3
-31:Hall & Oates - Maneater.mp3
-32:Michael Sembello - (Flashdance) She's A Maniac.mp3
-33:C&C Music Factory - Gonna Make You Sweat (Everybody Dance Now).mp3
-34:Alphaville - Forever Young.mp3
-35:Hall & Oates - Rich Girl.mp3
-36:Bruce Springsteen - Dancing In The Dark.mp3
-37:Outkast - Hey Ya.mp3
-38:Cher - If I Can Turn Back Time.mp3
-39:Snap! - Rhythm Is a Dancer.mp3
-40:ODESZA - Say My Name (feat. Zyra).mp3
-41:Irene Cara - Flashdance ... What A Feeling (Radio Edit).mp3
-42:Gramatik - Break Loose.mp3
 playlist_end
